@@ -1,0 +1,94 @@
+:root {
+  --bg: #0f1729;
+  --fg: #e8edf5;
+  --accent: #4a9eff;
+  --dim: #6b7a94;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  line-height: 1.6;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+main {
+  max-width: 640px;
+  width: 100%;
+}
+
+header {
+  margin-bottom: 3rem;
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--fg);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--dim);
+  letter-spacing: 0.1em;
+}
+
+.manifesto p {
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
+  color: var(--fg);
+}
+
+.manifesto p:last-child {
+  color: var(--accent);
+  margin-top: 2rem;
+}
+
+footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--dim);
+}
+
+footer a {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 1.5rem;
+    align-items: flex-start;
+    padding-top: 4rem;
+  }
+  .logo {
+    font-size: 2.5rem;
+  }
+  .manifesto p {
+    font-size: 0.95rem;
+  }
+}
