@@ -4,7 +4,7 @@ Static site for tertius.cc. Plain HTML/CSS, no build step.
 
 ## Local preview
 
-```
+```sh
 python3 -m http.server 8000 --directory .
 # open http://localhost:8000
 ```
@@ -37,8 +37,10 @@ python3 -m http.server 8000 --directory .
 
 ## Files
 
-- `index.html` — single-page manifesto
-- `style.css` — monospace, dark theme
+- `index.html` — single-page company site
+- `style.css` — minimal monochrome research-terminal theme
+- `fonts/` — self-hosted IBM Plex Mono with license
 - `favicon.svg` — `[t]` mark
-- `logo.svg` / `logo.png` — 512x512 avatar used for OpenGraph
+- `logo.svg` / `logo.png` — square brand mark
+- `og.png` — social preview card
 - `CNAME` — GitHub Pages custom domain config
