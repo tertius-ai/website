@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TypeBase Volume I: a complete, certified catalogue of finite posets."
+    />
+    <meta name="theme-color" content="#f2efe7" />
+    <title>Finite Posets — TypeBase Volume I</title>
+    <script>
+      const requestedStyle = new URL(location.href).searchParams.get("style");
+      document.documentElement.dataset.style = ["report", "registrar", "monograph"].includes(requestedStyle)
+        ? requestedStyle
+        : "report";
+    </script>
+    <script type="module" crossorigin src="/typebase/assets/posets-1jCoDGYP.js"></script>
+    <link rel="modulepreload" crossorigin href="/typebase/assets/style-DX5ea1A8.js">
+    <link rel="stylesheet" crossorigin href="/typebase/assets/style-DRzRLgQX.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#catalogue">Skip to catalogue</a>
+    <header class="masthead">
+      <a class="wordmark" href="./" aria-label="TypeBase home">
+        <span class="wordmark__name">TypeBase</span>
+        <span class="wordmark__volume">Volume I</span>
+      </a>
+      <div class="proof-switcher" aria-label="Presentation proof">
+        <span>Proof</span>
+        <button type="button" data-style-choice="report">A · Report</button>
+        <button type="button" data-style-choice="registrar">B · Cards</button>
+        <button type="button" data-style-choice="monograph">C · Book</button>
+      </div>
+      <nav aria-label="Primary">
+        <a href="./" aria-current="page">Posets</a>
+        <a href="./steiner.html">Steiner categories</a>
+        <a href="https://tertius.cc/">Tertius</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow">The finite collections · I</p>
+        <h1 id="hero-title">Posets,<br /><em>completely arranged.</em></h1>
+        <p class="hero__introduction">
+          One representative of every finite partially ordered set through ten
+          points, presented with its topology, symmetries, dual, and core.
+        </p>
+        <dl class="hero__figures" id="collection-figures">
+          <div><dt>Objects</dt><dd>—</dd></div>
+          <div><dt>Orders</dt><dd>0–10</dd></div>
+          <div><dt>Edition</dt><dd>Volume I</dd></div>
+        </dl>
+      </section>
+
+      <section class="catalogue" id="catalogue" aria-labelledby="catalogue-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Browse the collection</p>
+            <h2 id="catalogue-title">Finite Posets</h2>
+          </div>
+          <p class="section-heading__note">
+            Labels read <i>points.dimension.index</i>. Every object is an
+            isomorphism class; relabelings are not repeated.
+          </p>
+        </div>
+
+        <form class="filters" id="filters" role="search">
+          <label class="field field--label">
+            <span>Accession label</span>
+            <input
+              id="label-filter"
+              name="label"
+              inputmode="numeric"
+              autocomplete="off"
+              placeholder="for example, 8.2.17"
+            />
+          </label>
+          <label class="field">
+            <span>Catalogue</span>
+            <select id="scope-filter" name="scope">
+              <option value="posets">Isomorphism classes</option>
+              <option value="cores">Homotopy cores</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Points</span>
+            <select id="order-filter" name="order"><option value="">All</option></select>
+          </label>
+          <label class="field">
+            <span>Dimension</span>
+            <select id="dimension-filter" name="dimension"><option value="">All</option></select>
+          </label>
+          <fieldset class="qualities">
+            <legend>Qualities</legend>
+            <label><input type="checkbox" id="connected-filter" /> Connected</label>
+            <label><input type="checkbox" id="self-dual-filter" /> Self-dual</label>
+            <label><input type="checkbox" id="lattice-filter" /> Lattice</label>
+          </fieldset>
+          <fieldset class="homology-filters">
+            <legend>Homology restrictions</legend>
+            <label>
+              <span>Degree</span>
+              <select id="homology-degree-filter">
+                <option value="">Any</option>
+              </select>
+            </label>
+            <label>
+              <span>Minimum Betti number</span>
+              <input id="minimum-betti-filter" type="number" inputmode="numeric" min="0" max="10" value="1" disabled />
+            </label>
+            <label>
+              <span>Torsion</span>
+              <select id="torsion-filter">
+                <option value="any">Any</option>
+                <option value="present">Present</option>
+                <option value="absent">Absent</option>
+              </select>
+            </label>
+            <label class="homology-filters__check">
+              <input type="checkbox" id="reduced-homology-filter" />
+              Nonzero reduced homology
+            </label>
+          </fieldset>
+          <button class="button button--ink" type="submit">Show objects</button>
+        </form>
+
+        <div class="catalogue-status" aria-live="polite">
+          <p id="result-count">Preparing the catalogue…</p>
+          <p id="query-note">The data stays where it is; only the requested columns are read.</p>
+        </div>
+        <div class="object-list" id="object-list"></div>
+        <div class="pagination" id="pagination" hidden>
+          <button class="text-button" id="previous-page" type="button">← Previous</button>
+          <span id="page-position"></span>
+          <button class="text-button" id="next-page" type="button">Next →</button>
+        </div>
+      </section>
+
+      <section class="about" id="about" aria-labelledby="about-title">
+        <p class="eyebrow">Editorial note</p>
+        <h2 id="about-title">A catalogue, not a black box.</h2>
+        <div class="about__columns">
+          <p>
+            Each accession is the canonical representative of an isomorphism
+            class. Its label is permanent within Volume I. The Hasse drawing is
+            made directly from the certified cover relation.
+          </p>
+          <p>
+            Cores and opposites link back into the same collection. Homology is
+            computed from the linked order complex, and identified abstract
+            automorphism groups link outward to the LMFDB.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="record" id="record-dialog" aria-labelledby="record-title">
+      <div id="record-content"></div>
+    </dialog>
+
+    <footer>
+      <p>TypeBase <span aria-hidden="true">×</span> Tertius</p>
+      <p>Certified mathematical data, made for close looking.</p>
+    </footer>
+
+  </body>
+</html>

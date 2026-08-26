@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TypeBase Volume I: the certified catalogue of finite strong Steiner categories."
+    />
+    <meta name="theme-color" content="#f2efe7" />
+    <title>Steiner Categories — TypeBase Volume I</title>
+    <script>
+      const requestedStyle = new URL(location.href).searchParams.get("style");
+      document.documentElement.dataset.style = ["report", "registrar", "monograph"].includes(requestedStyle)
+        ? requestedStyle
+        : "report";
+    </script>
+    <script type="module" crossorigin src="/typebase/assets/steiner-CO11Rb6t.js"></script>
+    <link rel="modulepreload" crossorigin href="/typebase/assets/style-DX5ea1A8.js">
+    <link rel="stylesheet" crossorigin href="/typebase/assets/style-DRzRLgQX.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#catalogue">Skip to catalogue</a>
+    <header class="masthead">
+      <a class="wordmark" href="./" aria-label="TypeBase home">
+        <span class="wordmark__name">TypeBase</span>
+        <span class="wordmark__volume">Volume I</span>
+      </a>
+      <div class="proof-switcher" aria-label="Presentation proof">
+        <span>Proof</span>
+        <button type="button" data-style-choice="report">A · Report</button>
+        <button type="button" data-style-choice="registrar">B · Cards</button>
+        <button type="button" data-style-choice="monograph">C · Book</button>
+      </div>
+      <nav aria-label="Collections">
+        <a href="./">Posets</a>
+        <a href="./steiner.html" aria-current="page">Steiner categories</a>
+        <a href="https://tertius.cc/">Tertius</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero hero--steiner" aria-labelledby="hero-title">
+        <p class="eyebrow">The finite collections · II</p>
+        <h1 id="hero-title">Directed cells,<br /><em>in strict formation.</em></h1>
+        <p class="hero__introduction">
+          One representative of every finite strong Steiner category in the
+          certified atomic range, with its mappings, homology, homotopy posets,
+          dualities, and Gray products.
+        </p>
+        <dl class="hero__figures" id="collection-figures">
+          <div><dt>Objects</dt><dd id="figure-count">—</dd></div>
+          <div><dt>Atomic sizes</dt><dd id="figure-range">—</dd></div>
+          <div><dt>Street nerve</dt><dd id="figure-street">—</dd></div>
+        </dl>
+      </section>
+
+      <section class="catalogue" id="catalogue" aria-labelledby="catalogue-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Browse the collection</p>
+            <h2 id="catalogue-title">Steiner categories</h2>
+          </div>
+          <p class="section-heading__note">
+            Labels read <i>atoms.dimension.index</i>. Select two objects in a
+            record drawing to open their exact mapping category.
+          </p>
+        </div>
+
+        <form class="filters filters--steiner" id="filters" role="search">
+          <label class="field field--label">
+            <span>Accession label</span>
+            <input id="label-filter" inputmode="numeric" autocomplete="off" placeholder="for example, 7.2.12" />
+          </label>
+          <label class="field">
+            <span>Atomic size</span>
+            <select id="size-filter"><option value="">All</option></select>
+          </label>
+          <label class="field">
+            <span>Dimension</span>
+            <select id="dimension-filter"><option value="">All</option></select>
+          </label>
+          <label class="field">
+            <span>Named family</span>
+            <select id="family-filter"><option value="">All</option></select>
+          </label>
+          <fieldset class="qualities">
+            <legend>Qualities</legend>
+            <label><input type="checkbox" id="connected-filter" /> Connected</label>
+            <label><input type="checkbox" id="self-dual-filter" /> Self-dual</label>
+            <label><input type="checkbox" id="interesting-filter" /> Interesting</label>
+          </fieldset>
+          <fieldset class="homology-filters">
+            <legend>Polygraphic homology and oriented homotopy</legend>
+            <label>
+              <span>Homology degree</span>
+              <select id="homology-degree-filter"><option value="">Any</option></select>
+            </label>
+            <label>
+              <span>Minimum free rank</span>
+              <input id="minimum-betti-filter" type="number" min="0" max="20" value="1" disabled />
+            </label>
+            <label>
+              <span>Torsion</span>
+              <select id="torsion-filter">
+                <option value="any">Any</option>
+                <option value="present">Present</option>
+                <option value="absent">Absent</option>
+              </select>
+            </label>
+            <label>
+              <span>Minimum homotopy-Poset order</span>
+              <input id="homotopy-order-filter" type="number" min="0" value="0" />
+            </label>
+          </fieldset>
+          <button class="button button--ink" type="submit">Show objects</button>
+        </form>
+
+        <div class="catalogue-status" aria-live="polite">
+          <p id="result-count">Preparing the catalogue…</p>
+          <p id="query-note">The complete search edition is a small static document.</p>
+        </div>
+        <div class="object-list" id="object-list"></div>
+        <div class="pagination" id="pagination" hidden>
+          <button class="text-button" id="previous-page" type="button">← Previous</button>
+          <span id="page-position"></span>
+          <button class="text-button" id="next-page" type="button">Next →</button>
+        </div>
+      </section>
+
+      <section class="about gray-register" id="gray" aria-labelledby="gray-title">
+        <p class="eyebrow">Ordered multiplication register</p>
+        <h2 id="gray-title">The small Gray table.</h2>
+        <p class="gray-register__note">
+          Rows are left factors and columns are right factors. A dashed result
+          is a certified construction outside the current complete shell.
+        </p>
+        <div id="gray-table" class="gray-table"></div>
+      </section>
+
+      <section class="catalogue collection-note" id="about">
+        <p class="eyebrow">Reading note</p>
+        <h2>Categorical and polygraphic homology stay distinct.</h2>
+        <div class="about__columns about__columns--light">
+          <p>
+            Integral polygraphic homology is computed from the atomic chain
+            complex. Categorical homology is Heine’s free stratified
+            simplicial commutative monoid on the Street nerve.
+          </p>
+          <p>
+            Monomorphic oriented basepoints are listed modulo the exact natural
+            automorphism action. Every homotopy Poset links to its finite-Poset
+            accession in this volume.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="record record--steiner" id="record-dialog" aria-labelledby="record-title">
+      <div id="record-content"></div>
+    </dialog>
+
+    <footer>
+      <p>TypeBase <span aria-hidden="true">×</span> Tertius</p>
+      <p>Certified mathematical data, made for close looking.</p>
+    </footer>
+  </body>
+</html>

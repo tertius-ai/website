@@ -1,0 +1,2927 @@
+{
+  "component": "typebase/volume-1/finite-posets",
+  "status": "passed",
+  "volume": 1,
+  "collection": "finite-posets/v1",
+  "census_record_version": 1,
+  "maximum_order": 10,
+  "label_scheme": "order.order-complex-dimension.canonical-index/v1",
+  "label_index_origin": 1,
+  "empty_poset_label": "0.-1.1",
+  "rows_per_detail_part": 10000,
+  "poset_count": 2769965,
+  "stores_labeled_posets": false,
+  "source_orders": [
+    {
+      "order": 0,
+      "posets": {
+        "path": "census/record-version=1/order=0/posets.jsonl",
+        "byte_count": 733,
+        "sha256": "9223648254de83821e98fbf9c1766d22d709ec15e1d5bd868bb290205aadb4da"
+      },
+      "complexes": {
+        "path": "census/record-version=1/order=0/simplicial-complexes.jsonl",
+        "byte_count": 227,
+        "sha256": "543198d0c051f960233aec5b266eed8f61d9970fea4b2f8ac676d8882642583d"
+      },
+      "validation": {
+        "path": "census/record-version=1/order=0/validation.json",
+        "byte_count": 1516,
+        "sha256": "2b3b7939a0d8ed1340609fb378a8d061292dee3f1e184fd591f3bdb9136babee"
+      }
+    },
+    {
+      "order": 1,
+      "posets": {
+        "path": "census/record-version=1/order=1/posets.jsonl",
+        "byte_count": 747,
+        "sha256": "2c60e6960bf6ea084afa74fbd2af3718ac96aa3214ddc97f97a9d1a213a72069"
+      },
+      "complexes": {
+        "path": "census/record-version=1/order=1/simplicial-complexes.jsonl",
+        "byte_count": 280,
+        "sha256": "2c06681000923a2ee822565b1d208e035d1833a956d359bc0e5558e71c606ec8"
+      },
+      "validation": {
+        "path": "census/record-version=1/order=1/validation.json",
+        "byte_count": 1516,
+        "sha256": "8dae873cccd55dfe119ad5729fcc69496f43c26e7f6b71848f63accc937d74bb"
+      }
+    },
+    {
+      "order": 2,
+      "posets": {
+        "path": "census/record-version=1/order=2/posets.jsonl",
+        "byte_count": 1585,
+        "sha256": "302435fa07fcfb2bad6a9eaa9b8ff6edde42b737b9b7dbdf714654236ceaa79b"
+      },
+      "complexes": {
+        "path": "census/record-version=1/order=2/simplicial-complexes.jsonl",
+        "byte_count": 618,
+        "sha256": "048ded871ac8cbdb0ee0e44c68435d782372328db65c777352027d13ee7e46e3"
+      },
+      "validation": {
+        "path": "census/record-version=1/order=2/validation.json",
+        "byte_count": 1516,
+        "sha256": "6c9c092a8ab413a6e6ea46d69da08a5a14f5f6b7774f17c1279958c617302068"
+      }
+    },
+    {
+      "order": 3,
+      "posets": {
+        "path": "census/record-version=1/order=3/posets.jsonl",
+        "byte_count": 4264,
+        "sha256": "cbb56518b818b87709f7c9cd2846c7686273a57a423ae67aab199e3af1eb5983"
+      },
+      "complexes": {
+        "path": "census/record-version=1/order=3/simplicial-complexes.jsonl",
+        "byte_count": 1694,
+        "sha256": "cbdc25a04a6d812b7d4a5699bdbc5aa945df7b4466d339425003ba08596d6aa1"
+      },
+      "validation": {
+        "path": "census/record-version=1/order=3/validation.json",
+        "byte_count": 1519,
+        "sha256": "3cb3b836f9c91e855b6e1646ae0fefc4c82b8ee70ef3e4146ba5a84c2257e6a7"
+      }
+    },
+    {
+      "order": 4,
+      "posets": {
+        "path": "census/record-version=1/order=4/posets.jsonl",
+        "byte_count": 14633,
+        "sha256": "49c715ee4bd8c839914553ff78b8581202a8bc6eed7a8df70b8ae5dbd0fdb125"
+      },
+      "complexes": {
+        "path": "census/record-version=1/order=4/simplicial-complexes.jsonl",
+        "byte_count": 5862,
+        "sha256": "57f6af8d70e931681f1b6dbf0545b6c283d0a9d4ecb54325c5d181f2e267744a"
+      },
+      "validation": {
+        "path": "census/record-version=1/order=4/validation.json",
+        "byte_count": 1527,
+        "sha256": "a5e0177bc71ba65f4649cf18b5d2e7b0c4b01947f307f380dfff8234d13e3c46"
+      }
+    },
+    {
+      "order": 5,
+      "posets": {
+        "path": "census/record-version=1/order=5/posets.jsonl",
+        "byte_count": 61677,
+        "sha256": "010df9336a7595aea28f70e4867d83c40836801421d05abd1016e03995f12627"
+      },
+      "complexes": {
+        "path": "census/record-version=1/order=5/simplicial-complexes.jsonl",
+        "byte_count": 24804,
+        "sha256": "d4d4b275ab23388f44c58e74a7b06e812a6a44fabab4096945ea8dbe4ec1318b"
+      },
+      "validation": {
+        "path": "census/record-version=1/order=5/validation.json",
+        "byte_count": 1530,
+        "sha256": "c28d4b325f2c0c9d6db0d2663315c302d860827753ae0ed822a882cee3b2feae"
+      }
+    },
+    {
+      "order": 6,
+      "posets": {
+        "path": "census/record-version=1/order=6/posets.jsonl",
+        "byte_count": 330606,
+        "sha256": "8aa1cbfbfcd24c3fe915960babce958b7b36450f871415c26476c20efbd5739d"
+      },
+      "complexes": {
+        "path": "census/record-version=1/order=6/simplicial-complexes.jsonl",
+        "byte_count": 133529,
+        "sha256": "8996e3ac403e54969d68be8b515e120abefe49ee00b325143c112ecc0e3b5e84"
+      },
+      "validation": {
+        "path": "census/record-version=1/order=6/validation.json",
+        "byte_count": 1540,
+        "sha256": "d565c9adb36820fc39accbba7ab3374ce80f5767e9e46efb1aabcfa0f9ee0174"
+      }
+    },
+    {
+      "order": 7,
+      "posets": {
+        "path": "census/record-version=1/order=7/posets.jsonl",
+        "byte_count": 2248268,
+        "sha256": "0778d95b20d8ee7b5a711ab0d0dc49700039114f68071d0100f905125860477a"
+      },
+      "complexes": {
+        "path": "census/record-version=1/order=7/simplicial-complexes.jsonl",
+        "byte_count": 911518,
+        "sha256": "a197dfb0127f21245e1c6e7c35b8e64f60ca4b6222807ef1ff861bedab00c67e"
+      },
+      "validation": {
+        "path": "census/record-version=1/order=7/validation.json",
+        "byte_count": 1549,
+        "sha256": "3e1685e23391fb16061874478d386ce95e6729cf4c9819068a5d63793d68239c"
+      }
+    },
+    {
+      "order": 8,
+      "posets": {
+        "path": "census/record-version=1/order=8/posets.jsonl",
+        "byte_count": 19671325,
+        "sha256": "485a92023d45020e0f07cbd261f1414f0973af84b7ace5e784edc1957de152c3"
+      },
+      "complexes": {
+        "path": "census/record-version=1/order=8/simplicial-complexes.jsonl",
+        "byte_count": 8002571,
+        "sha256": "8893bbc017f7ef6d30276974044755ddf96b7ef2a00576b02228780a685b8db3"
+      },
+      "validation": {
+        "path": "census/record-version=1/order=8/validation.json",
+        "byte_count": 1560,
+        "sha256": "ac7b044166bf28e5364c3de819f05c4391778a846d9c73009e0bf6cef77fd443"
+      }
+    },
+    {
+      "order": 9,
+      "posets": {
+        "path": "census/record-version=1/order=9/posets.jsonl",
+        "byte_count": 222401103,
+        "sha256": "d5fbb04034a4f5daa54387218d293670af476ba335c7f1b5e5b9f06af9034241"
+      },
+      "complexes": {
+        "path": "census/record-version=1/order=9/simplicial-complexes.jsonl",
+        "byte_count": 90806590,
+        "sha256": "bd25705a35133224622fe01c444aead7cde4919e84aff20ac2f898d4279bede7"
+      },
+      "validation": {
+        "path": "census/record-version=1/order=9/validation.json",
+        "byte_count": 1571,
+        "sha256": "ec836af6f8699fcfc4d4b20d8436308576f0bf8d492b39e2ca0eeff558a6e26f"
+      }
+    },
+    {
+      "order": 10,
+      "posets": {
+        "path": "census/record-version=1/order=10/posets.jsonl",
+        "byte_count": 3266650918,
+        "sha256": "7c7afb634e221428f34ac7028300c2705056601a5c71da8d44a109136d1361cd"
+      },
+      "complexes": {
+        "path": "census/record-version=1/order=10/simplicial-complexes.jsonl",
+        "byte_count": 1342053409,
+        "sha256": "d2daf03d04b314865743665cff236d9a14314522d249d76fc9f24c2e3ec7d215"
+      },
+      "validation": {
+        "path": "census/record-version=1/order=10/validation.json",
+        "byte_count": 1657,
+        "sha256": "2e5063041a03fc64753c891cc1e190903d7dac61f89300ee44b6e41d965d0ea7"
+      }
+    }
+  ],
+  "source_group_identifications": {
+    "path": "enrichments/automorphism-abstract-groups/v1/records.jsonl",
+    "byte_count": 533982620,
+    "sha256": "a65db83d9587c08686882e99bb1dafddcfc4d8a1322e257ac8fea46571eccf05"
+  },
+  "label_buckets": [
+    {
+      "order": 0,
+      "dimension": -1,
+      "row_count": 1,
+      "detail_part_count": 1
+    },
+    {
+      "order": 1,
+      "dimension": 0,
+      "row_count": 1,
+      "detail_part_count": 1
+    },
+    {
+      "order": 2,
+      "dimension": 0,
+      "row_count": 1,
+      "detail_part_count": 1
+    },
+    {
+      "order": 2,
+      "dimension": 1,
+      "row_count": 1,
+      "detail_part_count": 1
+    },
+    {
+      "order": 3,
+      "dimension": 0,
+      "row_count": 1,
+      "detail_part_count": 1
+    },
+    {
+      "order": 3,
+      "dimension": 1,
+      "row_count": 3,
+      "detail_part_count": 1
+    },
+    {
+      "order": 3,
+      "dimension": 2,
+      "row_count": 1,
+      "detail_part_count": 1
+    },
+    {
+      "order": 4,
+      "dimension": 0,
+      "row_count": 1,
+      "detail_part_count": 1
+    },
+    {
+      "order": 4,
+      "dimension": 1,
+      "row_count": 8,
+      "detail_part_count": 1
+    },
+    {
+      "order": 4,
+      "dimension": 2,
+      "row_count": 6,
+      "detail_part_count": 1
+    },
+    {
+      "order": 4,
+      "dimension": 3,
+      "row_count": 1,
+      "detail_part_count": 1
+    },
+    {
+      "order": 5,
+      "dimension": 0,
+      "row_count": 1,
+      "detail_part_count": 1
+    },
+    {
+      "order": 5,
+      "dimension": 1,
+      "row_count": 20,
+      "detail_part_count": 1
+    },
+    {
+      "order": 5,
+      "dimension": 2,
+      "row_count": 31,
+      "detail_part_count": 1
+    },
+    {
+      "order": 5,
+      "dimension": 3,
+      "row_count": 10,
+      "detail_part_count": 1
+    },
+    {
+      "order": 5,
+      "dimension": 4,
+      "row_count": 1,
+      "detail_part_count": 1
+    },
+    {
+      "order": 6,
+      "dimension": 0,
+      "row_count": 1,
+      "detail_part_count": 1
+    },
+    {
+      "order": 6,
+      "dimension": 1,
+      "row_count": 55,
+      "detail_part_count": 1
+    },
+    {
+      "order": 6,
+      "dimension": 2,
+      "row_count": 162,
+      "detail_part_count": 1
+    },
+    {
+      "order": 6,
+      "dimension": 3,
+      "row_count": 84,
+      "detail_part_count": 1
+    },
+    {
+      "order": 6,
+      "dimension": 4,
+      "row_count": 15,
+      "detail_part_count": 1
+    },
+    {
+      "order": 6,
+      "dimension": 5,
+      "row_count": 1,
+      "detail_part_count": 1
+    },
+    {
+      "order": 7,
+      "dimension": 0,
+      "row_count": 1,
+      "detail_part_count": 1
+    },
+    {
+      "order": 7,
+      "dimension": 1,
+      "row_count": 163,
+      "detail_part_count": 1
+    },
+    {
+      "order": 7,
+      "dimension": 2,
+      "row_count": 940,
+      "detail_part_count": 1
+    },
+    {
+      "order": 7,
+      "dimension": 3,
+      "row_count": 734,
+      "detail_part_count": 1
+    },
+    {
+      "order": 7,
+      "dimension": 4,
+      "row_count": 185,
+      "detail_part_count": 1
+    },
+    {
+      "order": 7,
+      "dimension": 5,
+      "row_count": 21,
+      "detail_part_count": 1
+    },
+    {
+      "order": 7,
+      "dimension": 6,
+      "row_count": 1,
+      "detail_part_count": 1
+    },
+    {
+      "order": 8,
+      "dimension": 0,
+      "row_count": 1,
+      "detail_part_count": 1
+    },
+    {
+      "order": 8,
+      "dimension": 1,
+      "row_count": 556,
+      "detail_part_count": 1
+    },
+    {
+      "order": 8,
+      "dimension": 2,
+      "row_count": 6372,
+      "detail_part_count": 1
+    },
+    {
+      "order": 8,
+      "dimension": 3,
+      "row_count": 7305,
+      "detail_part_count": 1
+    },
+    {
+      "order": 8,
+      "dimension": 4,
+      "row_count": 2380,
+      "detail_part_count": 1
+    },
+    {
+      "order": 8,
+      "dimension": 5,
+      "row_count": 356,
+      "detail_part_count": 1
+    },
+    {
+      "order": 8,
+      "dimension": 6,
+      "row_count": 28,
+      "detail_part_count": 1
+    },
+    {
+      "order": 8,
+      "dimension": 7,
+      "row_count": 1,
+      "detail_part_count": 1
+    },
+    {
+      "order": 9,
+      "dimension": 0,
+      "row_count": 1,
+      "detail_part_count": 1
+    },
+    {
+      "order": 9,
+      "dimension": 1,
+      "row_count": 2222,
+      "detail_part_count": 1
+    },
+    {
+      "order": 9,
+      "dimension": 2,
+      "row_count": 52336,
+      "detail_part_count": 6
+    },
+    {
+      "order": 9,
+      "dimension": 3,
+      "row_count": 86683,
+      "detail_part_count": 9
+    },
+    {
+      "order": 9,
+      "dimension": 4,
+      "row_count": 35070,
+      "detail_part_count": 4
+    },
+    {
+      "order": 9,
+      "dimension": 5,
+      "row_count": 6259,
+      "detail_part_count": 1
+    },
+    {
+      "order": 9,
+      "dimension": 6,
+      "row_count": 623,
+      "detail_part_count": 1
+    },
+    {
+      "order": 9,
+      "dimension": 7,
+      "row_count": 36,
+      "detail_part_count": 1
+    },
+    {
+      "order": 9,
+      "dimension": 8,
+      "row_count": 1,
+      "detail_part_count": 1
+    },
+    {
+      "order": 10,
+      "dimension": 0,
+      "row_count": 1,
+      "detail_part_count": 1
+    },
+    {
+      "order": 10,
+      "dimension": 1,
+      "row_count": 10765,
+      "detail_part_count": 2
+    },
+    {
+      "order": 10,
+      "dimension": 2,
+      "row_count": 534741,
+      "detail_part_count": 54
+    },
+    {
+      "order": 10,
+      "dimension": 3,
+      "row_count": 1261371,
+      "detail_part_count": 127
+    },
+    {
+      "order": 10,
+      "dimension": 4,
+      "row_count": 619489,
+      "detail_part_count": 62
+    },
+    {
+      "order": 10,
+      "dimension": 5,
+      "row_count": 125597,
+      "detail_part_count": 13
+    },
+    {
+      "order": 10,
+      "dimension": 6,
+      "row_count": 14258,
+      "detail_part_count": 2
+    },
+    {
+      "order": 10,
+      "dimension": 7,
+      "row_count": 1016,
+      "detail_part_count": 1
+    },
+    {
+      "order": 10,
+      "dimension": 8,
+      "row_count": 45,
+      "detail_part_count": 1
+    },
+    {
+      "order": 10,
+      "dimension": 9,
+      "row_count": 1,
+      "detail_part_count": 1
+    }
+  ],
+  "outputs": [
+    {
+      "kind": "search",
+      "path": "search/order=0/posets.parquet",
+      "row_count": 1,
+      "byte_count": 6077,
+      "sha256": "e68fae9313590962a3732c1df31bce883e28648b7e7726963c9922018fe634ba"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=0/dimension=-1/part-00000.parquet",
+      "row_count": 1,
+      "byte_count": 3037,
+      "sha256": "771eba115d3f611a3d1acfb153bffac722df79b5975d498e0fc72b8b00aaa6aa"
+    },
+    {
+      "kind": "search",
+      "path": "search/order=1/posets.parquet",
+      "row_count": 1,
+      "byte_count": 6082,
+      "sha256": "696fb0c1a687eed5595b697377977d12b26d95a60dec206b46840f45d73dd137"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=1/dimension=0/part-00000.parquet",
+      "row_count": 1,
+      "byte_count": 3063,
+      "sha256": "4e71919b940dcc1081c46bb090338273eb74439c44eb2d1f96d2037c49057f0b"
+    },
+    {
+      "kind": "search",
+      "path": "search/order=2/posets.parquet",
+      "row_count": 2,
+      "byte_count": 6199,
+      "sha256": "6dca44f7a0ca0bb31d433fabe2779b640e75e3ee9c636d0a0725a8a8f4abb757"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=2/dimension=0/part-00000.parquet",
+      "row_count": 1,
+      "byte_count": 3089,
+      "sha256": "4655c47ecdcf976bf7c971077c84b99688afa079b51ef1d372f5260e7428f1df"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=2/dimension=1/part-00000.parquet",
+      "row_count": 1,
+      "byte_count": 3125,
+      "sha256": "fc40a61a48a3eb93489658dfdf90c8d15d63a657fd16dbd7f34448dacdc8bc42"
+    },
+    {
+      "kind": "search",
+      "path": "search/order=3/posets.parquet",
+      "row_count": 5,
+      "byte_count": 6330,
+      "sha256": "7ec1e5e9e95f23ac188e1a31972c52d6d334f6ef06f92a1d3e8e6b82aab54438"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=3/dimension=0/part-00000.parquet",
+      "row_count": 1,
+      "byte_count": 3102,
+      "sha256": "9833982e319db05d9355dd92e6463962e7dd24eeff046859eb78135e04f343ab"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=3/dimension=1/part-00000.parquet",
+      "row_count": 3,
+      "byte_count": 3514,
+      "sha256": "eb6c9f5026733630a6368c527baaba31b18575e25236243d0717e673837735a6"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=3/dimension=2/part-00000.parquet",
+      "row_count": 1,
+      "byte_count": 3151,
+      "sha256": "6f20cf541ba8f405d8e94f3cad0aa52ce88c23885f573f170d78a7213916a95b"
+    },
+    {
+      "kind": "search",
+      "path": "search/order=4/posets.parquet",
+      "row_count": 16,
+      "byte_count": 6571,
+      "sha256": "7fd0e23a78427aa779749b1897e0491a5ecf548d1700a6c9714100f6a411a3d5"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=4/dimension=0/part-00000.parquet",
+      "row_count": 1,
+      "byte_count": 3127,
+      "sha256": "cfa4d83955da3ebee69160da2705dc48e6656cda1a10bc27c95e8cfd0b18f1be"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=4/dimension=1/part-00000.parquet",
+      "row_count": 8,
+      "byte_count": 4294,
+      "sha256": "a617dbe26dbbb16aa55f7a25568ca38621ac9f5756dbfd5ebe60d4fec9295142"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=4/dimension=2/part-00000.parquet",
+      "row_count": 6,
+      "byte_count": 3935,
+      "sha256": "89ff025048747b787b2b5525e25049cac8050ed220d57230dac2c2097a849418"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=4/dimension=3/part-00000.parquet",
+      "row_count": 1,
+      "byte_count": 3188,
+      "sha256": "a559004b0647d48203925dff78f4693c83eecf142680c482263be5b25c03641e"
+    },
+    {
+      "kind": "search",
+      "path": "search/order=5/posets.parquet",
+      "row_count": 63,
+      "byte_count": 7273,
+      "sha256": "2b326d347a7e1faf943c4ec9f716ef395686efbde8a212bafcb5824937bb1123"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=5/dimension=0/part-00000.parquet",
+      "row_count": 1,
+      "byte_count": 3151,
+      "sha256": "5f2d8dc63aa734d37d97b2c93dc5d17b6e577f10e69fe16c9940f73142a256b8"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=5/dimension=1/part-00000.parquet",
+      "row_count": 20,
+      "byte_count": 6057,
+      "sha256": "6f3b127e396f6b9a9a681aaf4c5bcef088f6e1d0e8563c1214df2e9507177219"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=5/dimension=2/part-00000.parquet",
+      "row_count": 31,
+      "byte_count": 7252,
+      "sha256": "6157ff915c1fb088ee1084c05369784bee00c93ff685bb36a97df34a55c37f3a"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=5/dimension=3/part-00000.parquet",
+      "row_count": 10,
+      "byte_count": 4499,
+      "sha256": "11dd2fd7ad93add0f321d1f243e6aeb119d8c678b9453e20c0dca6b13e51481c"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=5/dimension=4/part-00000.parquet",
+      "row_count": 1,
+      "byte_count": 3212,
+      "sha256": "97a714dce0bfde86afcdbf0970ecdf96155a2c47d06d06e2a8dc10fd2f4463fa"
+    },
+    {
+      "kind": "search",
+      "path": "search/order=6/posets.parquet",
+      "row_count": 318,
+      "byte_count": 10887,
+      "sha256": "0be415fa960bfb664461ef02c6b789eb0c89c1423466201ec80e6fdbcc421a05"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=6/dimension=0/part-00000.parquet",
+      "row_count": 1,
+      "byte_count": 3167,
+      "sha256": "bd2a5e723889d583029ca5757e399d2795e669ad472fca5829c3faf503e8305f"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=6/dimension=1/part-00000.parquet",
+      "row_count": 55,
+      "byte_count": 10691,
+      "sha256": "61dc8e8d7c5862f84b3560ea121542bad7bce0efd53b578c1fe48e8760c6769c"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=6/dimension=2/part-00000.parquet",
+      "row_count": 162,
+      "byte_count": 23978,
+      "sha256": "1ea3267a26dfcbdcce4995d4f32fbc258ec480e311a538a59b0e57c2238c8b2d"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=6/dimension=3/part-00000.parquet",
+      "row_count": 84,
+      "byte_count": 13785,
+      "sha256": "47544b7a81772da9bc1640d23c9abb089c14a636c4dcea9015918b0504469d90"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=6/dimension=4/part-00000.parquet",
+      "row_count": 15,
+      "byte_count": 5144,
+      "sha256": "e62287c6b9705fdfc27a69746899f25ef97f942ef9e1726de0c6ca5ae5d114bb"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=6/dimension=5/part-00000.parquet",
+      "row_count": 1,
+      "byte_count": 3224,
+      "sha256": "0815df71f036e97bb5e50e9691ab37ad0ec2c4d8d730fe659424be88f95f9949"
+    },
+    {
+      "kind": "search",
+      "path": "search/order=7/posets.parquet",
+      "row_count": 2045,
+      "byte_count": 32847,
+      "sha256": "b8861d0d3da175e95af2ad1bf87625364a20d4c190ed16ad1f64c032fc25fc74"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=7/dimension=0/part-00000.parquet",
+      "row_count": 1,
+      "byte_count": 3137,
+      "sha256": "b5273e6bc10f88ce738b6f5936ac3d7a11c496d2054885a57d1f572e4062b4cf"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=7/dimension=1/part-00000.parquet",
+      "row_count": 163,
+      "byte_count": 25031,
+      "sha256": "d1e89d246cbe2bae92a22c4dee39122e90e179b899ebc3ccb2d87ead32bfb758"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=7/dimension=2/part-00000.parquet",
+      "row_count": 940,
+      "byte_count": 117899,
+      "sha256": "ee916b639df94ef8217f88fedea9daa45dc80cd21d0fb26e2f4ea93a97afad10"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=7/dimension=3/part-00000.parquet",
+      "row_count": 734,
+      "byte_count": 90877,
+      "sha256": "784b168813b8af357ad04d13215269d72338df192c6b149d6ec8ed36d6216cb8"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=7/dimension=4/part-00000.parquet",
+      "row_count": 185,
+      "byte_count": 26228,
+      "sha256": "3aa4b4b54257e61c8eca02809b3501911fa3625a7f1ed24f1a253ac6b35a6c17"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=7/dimension=5/part-00000.parquet",
+      "row_count": 21,
+      "byte_count": 5885,
+      "sha256": "9f8ea9d2bdac216de50f94df496f215904f5e2b407375b799543979c6809342b"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=7/dimension=6/part-00000.parquet",
+      "row_count": 1,
+      "byte_count": 3242,
+      "sha256": "31958b312d92004bf3b46065526989dad640c4dfeee7ff8d28648203ba4ffde3"
+    },
+    {
+      "kind": "search",
+      "path": "search/order=8/posets.parquet",
+      "row_count": 16999,
+      "byte_count": 234255,
+      "sha256": "3b83acb21698e839ac0268f4477291a09364817b7404935dc0b77e549ee3f591"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=8/dimension=0/part-00000.parquet",
+      "row_count": 1,
+      "byte_count": 3141,
+      "sha256": "72e5ef7eb0ff6edd1c731e500cd3a0c4d572b1aba33819242ed489381d007d24"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=8/dimension=1/part-00000.parquet",
+      "row_count": 556,
+      "byte_count": 74591,
+      "sha256": "83d609565cb8f3f240d36b9b9bb4ce1130750915c3ffeb47f1b8d9921aa92618"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=8/dimension=2/part-00000.parquet",
+      "row_count": 6372,
+      "byte_count": 777146,
+      "sha256": "d1127c85a11375c3c6fc9c87112d25a7204d39ccb624b37dd39f5056946e9f96"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=8/dimension=3/part-00000.parquet",
+      "row_count": 7305,
+      "byte_count": 880093,
+      "sha256": "23647aaab1e2130dbaa9167eb9bf7252b54b2e7e543505aa0ca96d464165b84e"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=8/dimension=4/part-00000.parquet",
+      "row_count": 2380,
+      "byte_count": 289305,
+      "sha256": "7eace5be3bc75d8e9ca8ad2cba2ddcb4aad8d48329cb4dd22771d048c4548100"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=8/dimension=5/part-00000.parquet",
+      "row_count": 356,
+      "byte_count": 46055,
+      "sha256": "c72e46fd39b95dd3d0173175bacd0a880fc4b4d9676f67c427ed60b0e46a1093"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=8/dimension=6/part-00000.parquet",
+      "row_count": 28,
+      "byte_count": 6759,
+      "sha256": "64b5106c96f424a974400442f16994e4715dc4e40d2388f204f3bb5b8f3f142e"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=8/dimension=7/part-00000.parquet",
+      "row_count": 1,
+      "byte_count": 3279,
+      "sha256": "f4b884bd79b263df5269413b81a1eee256c9415feb406cd838b561ac2f24bd02"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=2/part-00000.parquet",
+      "row_count": 10000,
+      "byte_count": 1227840,
+      "sha256": "ec68718463d686899c49ea39f6ef8a3694e980deb7fe5eb00ce3dd22234e4c0a"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=3/part-00000.parquet",
+      "row_count": 10000,
+      "byte_count": 1227176,
+      "sha256": "16573dec5065418f84d7d72b3a7f18a0ec3282cc8e351e98f4069b819da626d0"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=2/part-00001.parquet",
+      "row_count": 10000,
+      "byte_count": 1219052,
+      "sha256": "1fe4e8f130b33c385f75aa879aab365840ce85499c39b07d24ad6a50a830873b"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=2/part-00002.parquet",
+      "row_count": 10000,
+      "byte_count": 1201444,
+      "sha256": "9ef639f8dfc5b08b7d209bc5f2ff139eee5ab88c5109b6852fd1d52d3fd675a7"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=3/part-00001.parquet",
+      "row_count": 10000,
+      "byte_count": 1206156,
+      "sha256": "93823cb453a6033a7299dc35b9a2c52ef0e8771fae8fc8feb23246565962c12c"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=3/part-00002.parquet",
+      "row_count": 10000,
+      "byte_count": 1198609,
+      "sha256": "c79b7d596313d744e70d2579d18b8ffa6d758a0a8ab2d3ac6d4d0c0d862ceb4a"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=2/part-00003.parquet",
+      "row_count": 10000,
+      "byte_count": 1190859,
+      "sha256": "877e76bc38f186b5d1f8ec6e0124d173d93b7be13b6efe1211102245a9c3dfaf"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=3/part-00003.parquet",
+      "row_count": 10000,
+      "byte_count": 1221323,
+      "sha256": "7a7409733b13fcade59c9d4a18d18a9373b3a0427f918831ce4c2475b415cb1c"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=4/part-00000.parquet",
+      "row_count": 10000,
+      "byte_count": 1215724,
+      "sha256": "cef24bffc57c843db58e48406fad615f51a68ec0409c7bc67b95f0f87d42145d"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=3/part-00004.parquet",
+      "row_count": 10000,
+      "byte_count": 1247046,
+      "sha256": "2c704d4f23baaedae82f73af8ecfa00366ef8fc8898e5b747932a7b206397a3b"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=3/part-00005.parquet",
+      "row_count": 10000,
+      "byte_count": 1164149,
+      "sha256": "d82c81d0f4463fa776571c8718cb7b48cc5e9a6e39d5dfab7b2450b0b1bebc53"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=2/part-00004.parquet",
+      "row_count": 10000,
+      "byte_count": 1202552,
+      "sha256": "694df00aa93618a4e8607797047b47315c279384681a9c37df98e5d2170b0e28"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=3/part-00006.parquet",
+      "row_count": 10000,
+      "byte_count": 1188153,
+      "sha256": "c8f45cf8fca36582574febe81366a853dd4e372f92c67e4d540255f56a4b5016"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=4/part-00001.parquet",
+      "row_count": 10000,
+      "byte_count": 1186643,
+      "sha256": "ea57e1a30e6b5e47bf6339b8fa7ddfa48f6ef2ce59a6c3628fad731df210e525"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=3/part-00007.parquet",
+      "row_count": 10000,
+      "byte_count": 1212306,
+      "sha256": "bd931659a79f74994d2d21a1a7a3c7fc6c91b2fa4bb1a219520c90d0afb8d8b4"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=4/part-00002.parquet",
+      "row_count": 10000,
+      "byte_count": 1200697,
+      "sha256": "969135118c833ce0d640683e1787669b7f764d29c0fabaea7f42fc356348a241"
+    },
+    {
+      "kind": "search",
+      "path": "search/order=9/posets.parquet",
+      "row_count": 183231,
+      "byte_count": 2655895,
+      "sha256": "457242d2c9337e3baf2186a33ce80fa2cf61d07a5572819812c727e08a98bc4e"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=0/part-00000.parquet",
+      "row_count": 1,
+      "byte_count": 3153,
+      "sha256": "ae693f665c7215fa56c7c48e474963643ed2f66f8577b1b0f33f4553d8d28b28"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=1/part-00000.parquet",
+      "row_count": 2222,
+      "byte_count": 278803,
+      "sha256": "c333aa44310e815c38ceccacde76a50804fd2ad5088a3b65066dd259985e1860"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=2/part-00005.parquet",
+      "row_count": 2336,
+      "byte_count": 285357,
+      "sha256": "ce288dc3eddc2962c7849b38d906b1047105a505d9529946b5a9483e3db04c2a"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=3/part-00008.parquet",
+      "row_count": 6683,
+      "byte_count": 775806,
+      "sha256": "64c6bdecc5b656629419db82759835fada30b898a1dafa0cc99db1398aa3aa03"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=4/part-00003.parquet",
+      "row_count": 5070,
+      "byte_count": 590661,
+      "sha256": "0179e2bc5ad987c749c86ea466b7b1a85000350a44feb654ce831c9085a94e10"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=5/part-00000.parquet",
+      "row_count": 6259,
+      "byte_count": 745798,
+      "sha256": "9493d31c88af5c0c5da334b5802385ee64b94e634c2e16156dd39bd6a31ebceb"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=6/part-00000.parquet",
+      "row_count": 623,
+      "byte_count": 75900,
+      "sha256": "2006381cb9dd5bdbcc7ee031dcbf20b11738221f7bc49056c5473526be0ea841"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=7/part-00000.parquet",
+      "row_count": 36,
+      "byte_count": 7782,
+      "sha256": "0870be5f53c547213118ff92e0d5e8ac87e67cf708e17104c83ae5aca2cb6e5e"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=9/dimension=8/part-00000.parquet",
+      "row_count": 1,
+      "byte_count": 3309,
+      "sha256": "4851b028faff9699d805a4dea31e4eb2687b708254c984b2f5dd1c8b098963ab"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00000.parquet",
+      "row_count": 10000,
+      "byte_count": 1249641,
+      "sha256": "02bd848cf3a540947c1b7afe3c67572214cdb3bd6c19169a7fe2678988f390e0"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00001.parquet",
+      "row_count": 10000,
+      "byte_count": 1239443,
+      "sha256": "16122c4c58110d65a7a98c13fe7e6719a3e635a4517dec8c9ccc8fd507816b73"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00002.parquet",
+      "row_count": 10000,
+      "byte_count": 1212715,
+      "sha256": "a8c9a2795ddb9f498d354169d8c0119e768db010856dc0bf3245a90f1d9b5d31"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00000.parquet",
+      "row_count": 10000,
+      "byte_count": 1233292,
+      "sha256": "40a08d029220e8cf85dadd593a7753dbadda8cf7c5e4ed8101f7aa96af957ede"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00003.parquet",
+      "row_count": 10000,
+      "byte_count": 1206875,
+      "sha256": "3eb275bf3c606975d8d86ad939a7610153086fdfca2b7eb307ce8c6e6cf0a191"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00004.parquet",
+      "row_count": 10000,
+      "byte_count": 1214540,
+      "sha256": "4f2d9690006a814a5c2dc2ed2ef1f0cd6fb08863c3e0c84e7278a19b075537ee"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00001.parquet",
+      "row_count": 10000,
+      "byte_count": 1226388,
+      "sha256": "1fa4387f7017e86c4d4ffc57571c771221e35e468faddf0d8fcd35a8cac7aca0"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00005.parquet",
+      "row_count": 10000,
+      "byte_count": 1223175,
+      "sha256": "61e1efb0b8f7d513e31ba267dab3b67ce519ca3b206605642b701920cf4b4cee"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00002.parquet",
+      "row_count": 10000,
+      "byte_count": 1245660,
+      "sha256": "f8754bb4ed0db305bfe059686b26897b7a2b9957aea52700f9985a67b92ef8d4"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00006.parquet",
+      "row_count": 10000,
+      "byte_count": 1242998,
+      "sha256": "7cd5d6257faefd0be8dfa71b3f20e65812a0d66155fefaf98e122ae3a36a5776"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00007.parquet",
+      "row_count": 10000,
+      "byte_count": 1242675,
+      "sha256": "49828ebbdd0b8e0bff7dfe7f1fc8acec2dae51155020a61a31e17bc3bb90c774"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00008.parquet",
+      "row_count": 10000,
+      "byte_count": 1242500,
+      "sha256": "6f3df56346504b3189162abdf4f17b6cf0a0ae7d6a38a5a875a334e5f89bd9dd"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00003.parquet",
+      "row_count": 10000,
+      "byte_count": 1246693,
+      "sha256": "5ee2bbcc5d9eb0feb41d75cd5da07cdb1fe45d2edb3dd62143a8984f9d9fa059"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00009.parquet",
+      "row_count": 10000,
+      "byte_count": 1258306,
+      "sha256": "7a2aaa6079a6e1c7f0d3b7b4c2edd9732e40b144c3697636b33d917992c655c3"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00004.parquet",
+      "row_count": 10000,
+      "byte_count": 1244775,
+      "sha256": "98aecccbe53b9e60502442aa59f93dadd8f6e20533a197105c179b9e3223f71b"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00010.parquet",
+      "row_count": 10000,
+      "byte_count": 1188271,
+      "sha256": "a6b6f86bb2203fdac3236f8d7a3095fbfee876a50a0a69f098902cabc03ff87d"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00011.parquet",
+      "row_count": 10000,
+      "byte_count": 1180843,
+      "sha256": "a7e4c7dab230a9486afe5c86bffff6207353bf64e00d4340ed9d2bc8fd1cc34e"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00005.parquet",
+      "row_count": 10000,
+      "byte_count": 1194874,
+      "sha256": "e420700f61778c3ff51e7102fa6d0544f7ef086fcb0fcaef3a3281454985ed20"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00012.parquet",
+      "row_count": 10000,
+      "byte_count": 1179979,
+      "sha256": "da195d40b9c7d4b523f05a64609b6bcea20ab4ba98e97031038aa64df9986a47"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00006.parquet",
+      "row_count": 10000,
+      "byte_count": 1198948,
+      "sha256": "3c6ebc8945e9c1c3c7990f18a14937f8140ef3fc76f33f0697711d9a6601e473"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00013.parquet",
+      "row_count": 10000,
+      "byte_count": 1197105,
+      "sha256": "ad658fe4c7525289226147c3a1d9a579a98a057db4f38717f89929fd15c5c061"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00007.parquet",
+      "row_count": 10000,
+      "byte_count": 1211486,
+      "sha256": "ff1c6b674afb55b84648693dda176225ff4644333f2c46bfb43b87a3d1c2f92f"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00008.parquet",
+      "row_count": 10000,
+      "byte_count": 1213043,
+      "sha256": "76d37bc9aab3872486dec52287db107fd66d0d39be08466843daabfd06f4993e"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00014.parquet",
+      "row_count": 10000,
+      "byte_count": 1189708,
+      "sha256": "c6f47029631c40e37eb47d1d700af5aa8ffef8a0ff1504d2932ed3406f7c68b7"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00000.parquet",
+      "row_count": 10000,
+      "byte_count": 1209820,
+      "sha256": "47cc993bc7ee8c64a18b08d04a5dbd82b4e07851734372a445afce58b7f01078"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00015.parquet",
+      "row_count": 10000,
+      "byte_count": 1186097,
+      "sha256": "65d387404021df82829ba95493dafbc47919449e8144c14391797a85d43cce1a"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00009.parquet",
+      "row_count": 10000,
+      "byte_count": 1212501,
+      "sha256": "d482a28dd7a6e5e3a23df4cde47f7c3d43e0641bd98080dd41e33444bcef804a"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00016.parquet",
+      "row_count": 10000,
+      "byte_count": 1182139,
+      "sha256": "59c249c0c2b6bbe11b2482b65f1087fb2eda43d6498c0ac483e1b47b5fde254c"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00010.parquet",
+      "row_count": 10000,
+      "byte_count": 1197975,
+      "sha256": "62ccbdda7349b3e3aff4888c6550f0556c50a2791a2e777bec814f6927347eee"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00017.parquet",
+      "row_count": 10000,
+      "byte_count": 1181609,
+      "sha256": "fa499b7db3c060f5dec6bcdb58f29ad5a5034e9ec434dc63241f06ad989e3fce"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00011.parquet",
+      "row_count": 10000,
+      "byte_count": 1200833,
+      "sha256": "d51946de65a077a5efab8bb4c06815109d26a19980251d6dcafc19fc53d7209e"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00018.parquet",
+      "row_count": 10000,
+      "byte_count": 1197334,
+      "sha256": "3f3579a6e8408445db3a60e9156100d1f7215791f67c33fc0ec63568a1580618"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00012.parquet",
+      "row_count": 10000,
+      "byte_count": 1214602,
+      "sha256": "e47ca70cfbedf356a730a3a542d9e49894a59d12fe3eee81c7fec3aa47548bce"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00013.parquet",
+      "row_count": 10000,
+      "byte_count": 1226845,
+      "sha256": "d6fc7ad4eb847f3fac1e773ed39be503cc1f43f3980f43f10473dadecbeb925e"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00019.parquet",
+      "row_count": 10000,
+      "byte_count": 1202591,
+      "sha256": "23678f61a41e21a6759308d16853e428632e28f8edf4d26e7e9375c269bc59d8"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00014.parquet",
+      "row_count": 10000,
+      "byte_count": 1226003,
+      "sha256": "d24abba060ee1d9dd84bd97b35dc4136fd88f099351a3bd08ea69d65268d8623"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00020.parquet",
+      "row_count": 10000,
+      "byte_count": 1198283,
+      "sha256": "80a42dcba0b5a6dbc97edace1d5b1d212b0929dc4aa812cb225d3e82f02cd685"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00021.parquet",
+      "row_count": 10000,
+      "byte_count": 1182682,
+      "sha256": "63dcda0364c0c88bd0920764095d7215fa772629e2e0ec01db5e2f5ded9fbb2a"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00015.parquet",
+      "row_count": 10000,
+      "byte_count": 1209825,
+      "sha256": "9f1f13ecfb05b9475382dfa7e565002e415e37798bc4c858e6fbac736e3dddc3"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00022.parquet",
+      "row_count": 10000,
+      "byte_count": 1195006,
+      "sha256": "f0b401e04072d354feca78280a8dbbdb0fc03e1ae95bc9711a83a578837ef301"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00016.parquet",
+      "row_count": 10000,
+      "byte_count": 1210810,
+      "sha256": "62dd86e2d18b778ff810b32dad1a430e9047c6fa59f365c8cd57bfa12d785788"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00017.parquet",
+      "row_count": 10000,
+      "byte_count": 1219854,
+      "sha256": "dd709dec5238d9ccc13fda346db8b1d76a07fdaf9660ce970732cc205632248d"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00001.parquet",
+      "row_count": 10000,
+      "byte_count": 1195341,
+      "sha256": "24f0d36121aad9c9b6c04e30eb71b86c91ddaffbefbd6f97b2b3f5ec733d7944"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00018.parquet",
+      "row_count": 10000,
+      "byte_count": 1229232,
+      "sha256": "41d046f8c1310c7a1e99cdf35d46cb0a2d0409023c5fc7f6db7559540fea1184"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00023.parquet",
+      "row_count": 10000,
+      "byte_count": 1207414,
+      "sha256": "88a40e741918c856d5c7cd9835237c844bfbe35cb1a08bb92f0fd12531a84c79"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00019.parquet",
+      "row_count": 10000,
+      "byte_count": 1233613,
+      "sha256": "db0bef1e7ee703783968ae12a784934bf8e56d14773e8e6b52515a0fe75b8d4b"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00024.parquet",
+      "row_count": 10000,
+      "byte_count": 1219963,
+      "sha256": "24690c91841114a9d24a1b1559bc9270cfe399e41ee08a10295cb60b3cecb638"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00020.parquet",
+      "row_count": 10000,
+      "byte_count": 1221419,
+      "sha256": "52cb98ec10e66abda028fab59b9c7b1f364389ac59e30ab9e99a932d09c7e513"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00021.parquet",
+      "row_count": 10000,
+      "byte_count": 1238497,
+      "sha256": "46bc001f7f4dfd577568d27432630517b3ab6d40c7bf3c1e49b4d11b190c3f81"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00025.parquet",
+      "row_count": 10000,
+      "byte_count": 1221140,
+      "sha256": "ef0b29a2e23e13d72a29edc36cc6519757f3a0d8416ef3f6ef6c6604d1241baa"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00002.parquet",
+      "row_count": 10000,
+      "byte_count": 1221750,
+      "sha256": "6b6a17fcdf2b6b66840b7dc4db92b7e60b4ec89b7da888d5e111682e7f575f34"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00022.parquet",
+      "row_count": 10000,
+      "byte_count": 1246680,
+      "sha256": "cd920ba818ab6fa348d830b555a2d33da3a0d6a15b67dee3948fbda9da2aa75d"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00023.parquet",
+      "row_count": 10000,
+      "byte_count": 1240666,
+      "sha256": "dadd7cdb3d8680287b0fe21a471914f026962a61a307aaad6db2f5024a3b2716"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00024.parquet",
+      "row_count": 10000,
+      "byte_count": 1252458,
+      "sha256": "cb4a401a2d4578d2acb0934bf1270d589134a68204401921a0e1473bfde3ff50"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00003.parquet",
+      "row_count": 10000,
+      "byte_count": 1234975,
+      "sha256": "931a6f7b4a2b9138412f0698956f4fdc1a977d3454c5434e226f3117437f1e60"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00026.parquet",
+      "row_count": 10000,
+      "byte_count": 1240178,
+      "sha256": "2018287fcf1541f7e71ed65a23c8c598c0677629642b1cfd123f720455449a12"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=1/part-00000.parquet",
+      "row_count": 10000,
+      "byte_count": 1213679,
+      "sha256": "a19447f92c29a7ce9dec5a6aa3a4731a6628bcaa865f1234129736ac76511e67"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00025.parquet",
+      "row_count": 10000,
+      "byte_count": 1254776,
+      "sha256": "538c957191ed9297c427bf68f67004ecb2e0aa2741db7ecaf75cd65aa49daf4c"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00027.parquet",
+      "row_count": 10000,
+      "byte_count": 1247587,
+      "sha256": "a5403209d8cb328a9cb39a2dee2bfedfe3c8506236c5b4ee070375e111f27a68"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00026.parquet",
+      "row_count": 10000,
+      "byte_count": 1259815,
+      "sha256": "cd96c561524408004370104d28feb395e9e7f6185184b696df7831aefb09897a"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00028.parquet",
+      "row_count": 10000,
+      "byte_count": 1259032,
+      "sha256": "8f14aeb09d32ec9e179220cb7d6cc819505f45bbd7745507ca583f01702d19f9"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00027.parquet",
+      "row_count": 10000,
+      "byte_count": 1250011,
+      "sha256": "221959c0338aa2da51eeff85af15bc63bb31e894cfa8cfd1fc5e0de202986aeb"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00028.parquet",
+      "row_count": 10000,
+      "byte_count": 1272012,
+      "sha256": "54171abf5d8502587a88297ba5d8ac0d2eb602d63e534a8d7ca7beed92760076"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00029.parquet",
+      "row_count": 10000,
+      "byte_count": 1270787,
+      "sha256": "6d94082c95a7a73bac39cf8481cf8e58458f900d21ae0cc3db43c34ed3ebbdae"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00004.parquet",
+      "row_count": 10000,
+      "byte_count": 1246217,
+      "sha256": "06f19293a5123db55e1cfe5ace35222de063fee77536bb61de1269bf50cca002"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00029.parquet",
+      "row_count": 10000,
+      "byte_count": 1287731,
+      "sha256": "fc98daff4a0175cb8cf022af3c9ae78f76b7e34db635a63e1f3bbc0327e44c77"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00030.parquet",
+      "row_count": 10000,
+      "byte_count": 1228793,
+      "sha256": "5ae758ba8bbf9e23bf4ff730b3cb0f2d1addbb6f0a55283e97100bc4d536da19"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00030.parquet",
+      "row_count": 10000,
+      "byte_count": 1184536,
+      "sha256": "df3c101d6da7562ba8dfb7d20284f9a5db4a558a60d2f3b395faa6489fe55a7f"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00031.parquet",
+      "row_count": 10000,
+      "byte_count": 1167290,
+      "sha256": "afd95583d5aa999417d5fbee8a88a408d8237a3df6fe6acaa38066314d58d629"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00031.parquet",
+      "row_count": 10000,
+      "byte_count": 1191150,
+      "sha256": "bda2413641041e2b03487ea2d16637e5dea05b0a9a32fff38071404bfe5fc4a9"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00032.parquet",
+      "row_count": 10000,
+      "byte_count": 1181359,
+      "sha256": "d8591dbb3e02f1fb57bc0d9f4f94edf3c0105ef20652dd93c4219729281a7f4f"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00032.parquet",
+      "row_count": 10000,
+      "byte_count": 1171274,
+      "sha256": "28dad4c494b82b5bfe51331d973bf0ac49be8fe0edfa49fe181731371249bbd8"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00033.parquet",
+      "row_count": 10000,
+      "byte_count": 1199639,
+      "sha256": "1851d805fe14c0c8816402c90b64e94345d7e24eae8f193dae290a2a057ad7ac"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00033.parquet",
+      "row_count": 10000,
+      "byte_count": 1162737,
+      "sha256": "79781160bc66b95dec9f80c02f3e3bd766d94acf624105029eaeae33e364753b"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00034.parquet",
+      "row_count": 10000,
+      "byte_count": 1166970,
+      "sha256": "c7d01493de501e194c47abb210d29e8e59f1f8fa20a28e136e9ae51cfb3f523e"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00005.parquet",
+      "row_count": 10000,
+      "byte_count": 1209434,
+      "sha256": "fa674e4952155ff896d981e91197b0f96a965df0bd8f613b0010e6db7c96f4a7"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00034.parquet",
+      "row_count": 10000,
+      "byte_count": 1154726,
+      "sha256": "b5c381cc99ea2cf521dcc8479cf6de00a778a925c97d2993431268341ac5fb56"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00035.parquet",
+      "row_count": 10000,
+      "byte_count": 1186130,
+      "sha256": "4d54c4f8d65b64b90a0e47b0212b8129a87a9177aa4bb119257b9a6806c18c70"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00036.parquet",
+      "row_count": 10000,
+      "byte_count": 1180604,
+      "sha256": "f6ec983446d17c72f3fdabd777b5fa00dc9e20a599897a2a15aad69a09fbfd4b"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00035.parquet",
+      "row_count": 10000,
+      "byte_count": 1164393,
+      "sha256": "564efacafd57dce28d13bf89da31dd89293b5600cb55c04ad8ec0d58ea6ce273"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00037.parquet",
+      "row_count": 10000,
+      "byte_count": 1185387,
+      "sha256": "d26af2a58ad6a69ccef114e2eef46a012405657893e58af5072f014452c8fa29"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00038.parquet",
+      "row_count": 10000,
+      "byte_count": 1165580,
+      "sha256": "ecabe8b0ba07af22c7a401727b6d90952189d9a6ab248dc44beb34326f4cd6f5"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00039.parquet",
+      "row_count": 10000,
+      "byte_count": 1176273,
+      "sha256": "c4f52cda802699edcc4e44d031a7c7d59d079f46b254468a2c6de94775f0b6a4"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00036.parquet",
+      "row_count": 10000,
+      "byte_count": 1157548,
+      "sha256": "ac0660df4aeb22019928f2f1452ff24c5378fe05d28488be2ffe063fe5b52153"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00040.parquet",
+      "row_count": 10000,
+      "byte_count": 1184423,
+      "sha256": "c26eefcd780d32cb8d8e485aa2b102f450cb3acd1f90ff660be1e82377ebe311"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00006.parquet",
+      "row_count": 10000,
+      "byte_count": 1166403,
+      "sha256": "2b4c0fff337dab4730ae82cfdbea4aa4163dbe351c592bef0883adaa7f41d7bb"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00041.parquet",
+      "row_count": 10000,
+      "byte_count": 1215109,
+      "sha256": "7bc009a97e991da0602b47472163b2e40d10a0249e8aa0cad7c50c467eca4ab0"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00037.parquet",
+      "row_count": 10000,
+      "byte_count": 1182416,
+      "sha256": "ab5c234120d2e2af69ba0424c919d0212a06f7123d6d2ce935157226fdd0797a"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00042.parquet",
+      "row_count": 10000,
+      "byte_count": 1197209,
+      "sha256": "ed4716b6d3b5dd40101b0c456c989b58d3bab375039c18456e24961cdb1b6ef7"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00043.parquet",
+      "row_count": 10000,
+      "byte_count": 1187004,
+      "sha256": "f0dd726dc6faa99615eee82be1233b78fa854db3fc7d216eec87a300c5b53be5"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00044.parquet",
+      "row_count": 10000,
+      "byte_count": 1180925,
+      "sha256": "eeaa82e8c2bfc4251f079361fe376383dd9e1772f68082584c0ee47be357bfc8"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00038.parquet",
+      "row_count": 10000,
+      "byte_count": 1159911,
+      "sha256": "38bdcf6d9b6f2b7b3dc1b080c7f748aafe49332243084affef28faa5557c3e32"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00007.parquet",
+      "row_count": 10000,
+      "byte_count": 1185989,
+      "sha256": "cad470356fe8d69838ff5e8b8d6a4700981d379767db1d49560df78d73997ef0"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00045.parquet",
+      "row_count": 10000,
+      "byte_count": 1196025,
+      "sha256": "b91d8a59e191224082d282144f427eeb65a1f67988802ccb7f0266c3e66ea31b"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00046.parquet",
+      "row_count": 10000,
+      "byte_count": 1215833,
+      "sha256": "7bcd4e4ecfb94191fbb9853d21873bf77b9291aa6265483968803fdaddf3b2a8"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00047.parquet",
+      "row_count": 10000,
+      "byte_count": 1198244,
+      "sha256": "aa905fd4de23000877f4d80ab9cb4302a30cca4d0f2bd4c0c2e061e919c9a48e"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00048.parquet",
+      "row_count": 10000,
+      "byte_count": 1215440,
+      "sha256": "b98bb6821205d375aa8759c19c11978eb5dab580b28abd35275d51fb9419e41d"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00008.parquet",
+      "row_count": 10000,
+      "byte_count": 1201469,
+      "sha256": "8e8cb10d6c4b2b07cc0153868bbfd1d7a5ba803969ae4b603d0ef09ccb64042d"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00049.parquet",
+      "row_count": 10000,
+      "byte_count": 1200536,
+      "sha256": "1766e9d108a04373056ec5898cce23b9c22c2dbcfb0826a31da63022de9eafa1"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00050.parquet",
+      "row_count": 10000,
+      "byte_count": 1185263,
+      "sha256": "738bd168d9c31ed7a530b3c7d3d99d428aa989e1d107b4d025ac59540c55ba3d"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00009.parquet",
+      "row_count": 10000,
+      "byte_count": 1184760,
+      "sha256": "04b78f5cdcfc26fedeab37ff0e2233641adaca636b83af6b0330bdac30c3c549"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00051.parquet",
+      "row_count": 10000,
+      "byte_count": 1210888,
+      "sha256": "b0b3b3576d4370d9ace2693b734ccb05e4de1cdf95e4f156e37b1ffc53da0d7f"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00010.parquet",
+      "row_count": 10000,
+      "byte_count": 1210477,
+      "sha256": "9522a714cbdd0a28de497870915072d2e1da2683c2839c8ab2a49bc397976553"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00039.parquet",
+      "row_count": 10000,
+      "byte_count": 1192739,
+      "sha256": "a73d85742145a48f93dd2a7f6a337244736a9aec92939889e8ee955befa73d2a"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00052.parquet",
+      "row_count": 10000,
+      "byte_count": 1233444,
+      "sha256": "0401493b6bdd986bf1f235f48b056a6915c34d59b396ef8f04b4b90af4012650"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00040.parquet",
+      "row_count": 10000,
+      "byte_count": 1171171,
+      "sha256": "6b183869a236d8c76c648def75eb1a6c1e43bb22dba87e2ec646a03e918a6b6d"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00053.parquet",
+      "row_count": 10000,
+      "byte_count": 1189586,
+      "sha256": "fe292dbdf142de6d237b43e3dec0cc6d0c7366314a251589524184f2df7a6a8b"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00054.parquet",
+      "row_count": 10000,
+      "byte_count": 1186211,
+      "sha256": "f1328ece0d8debb21e01ae3c512792768388869c1d51b026d0fe0d169a2f600a"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00055.parquet",
+      "row_count": 10000,
+      "byte_count": 1188168,
+      "sha256": "c96b12bb8c3594711da1eea0dd7b6643ab63ba53de3e38a4bf832e5d53205b4f"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00041.parquet",
+      "row_count": 10000,
+      "byte_count": 1158499,
+      "sha256": "819605b501b1b8023e2192687c6e0ef22939ab9a5cfdbaf47c55c9431c2f2c66"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00011.parquet",
+      "row_count": 10000,
+      "byte_count": 1208472,
+      "sha256": "330588f69cef8422ad2fa70836d6d3de6f52c6b85fd7864ad67fcacc488d1e5a"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00056.parquet",
+      "row_count": 10000,
+      "byte_count": 1201208,
+      "sha256": "aa850502bd73c9c1ddf90a595a41f71d09b31457c0c3e11d5700e4d171198d00"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00057.parquet",
+      "row_count": 10000,
+      "byte_count": 1205554,
+      "sha256": "bc49f310b4d57c149e65df31d945d5a0e76b99a1ade4732876a7494d8b86241e"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00042.parquet",
+      "row_count": 10000,
+      "byte_count": 1181771,
+      "sha256": "28b29f60b26c48013ae966f829067d98f82d62e4f8681620e30c1af5eb15ae73"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00058.parquet",
+      "row_count": 10000,
+      "byte_count": 1202868,
+      "sha256": "955cb6c61246a85b2f5a65d5ba769a192d402b6a23b891bd0ae62c56c15cfbf8"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00059.parquet",
+      "row_count": 10000,
+      "byte_count": 1191241,
+      "sha256": "e68241c00cdf67b67817ed3be9640956297ca9d0792670dd4604c7cbcf746d62"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00012.parquet",
+      "row_count": 10000,
+      "byte_count": 1193752,
+      "sha256": "5243139405d9353d3991a82416f61b83b738247c0ee33c9e95cc55a06b66b98a"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00060.parquet",
+      "row_count": 10000,
+      "byte_count": 1211054,
+      "sha256": "5ceaf86de2e1051583e1c4e81967ab1aa17fd0c1c89dbfc50e0e09ebf1901d8e"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00061.parquet",
+      "row_count": 10000,
+      "byte_count": 1214232,
+      "sha256": "9a3deb705172fedd05e975a9b0b0afb40cc937b004e4aa29ffa34f17ca9c2367"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00062.parquet",
+      "row_count": 10000,
+      "byte_count": 1203382,
+      "sha256": "087288a041689eb44ea5f4142d9512ed0307fc097444967531917cb46cf41076"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00043.parquet",
+      "row_count": 10000,
+      "byte_count": 1175384,
+      "sha256": "ea5a02f1d48ce4817566f7f515cb0bcab7e0779d3ddcd3f7c294bfa653a097cb"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00013.parquet",
+      "row_count": 10000,
+      "byte_count": 1193797,
+      "sha256": "c098b3be0e4c1d24224c387ecccef04b01565dcca415014719ff21b75982556a"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00063.parquet",
+      "row_count": 10000,
+      "byte_count": 1199366,
+      "sha256": "9ce1ec302235b3657df93473884ede2601f0b996dd2139bce6dbcd8297b9f3fd"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=5/part-00000.parquet",
+      "row_count": 10000,
+      "byte_count": 1196171,
+      "sha256": "29a8f21c4d91e6bb01bbb8ec35f056dddb7eb176f1e451912719e05669906a53"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00064.parquet",
+      "row_count": 10000,
+      "byte_count": 1209809,
+      "sha256": "b32ad750c67cfac3786b2812602a38b66cf2edfc8a91488c8095618131227808"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00014.parquet",
+      "row_count": 10000,
+      "byte_count": 1202180,
+      "sha256": "24c9ddc0900cd82ed76c404d29474344206f976653db49fe9290adc110226b02"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00065.parquet",
+      "row_count": 10000,
+      "byte_count": 1242067,
+      "sha256": "d6ff5528b5e721995fc0c9de25c3cab52e66d2b7100d332233bd86108d557510"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00044.parquet",
+      "row_count": 10000,
+      "byte_count": 1197086,
+      "sha256": "781ed95b5403a170cc8f37d3e70bd7577b44c0267036f7eb6baaace4e018fa8c"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00066.parquet",
+      "row_count": 10000,
+      "byte_count": 1218762,
+      "sha256": "54f115c96f92b4ec9f9e84d7a5e3eb2e9b4fe1f02130b6d8f3b149a93057491d"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00015.parquet",
+      "row_count": 10000,
+      "byte_count": 1224458,
+      "sha256": "8566d0b63104d315675a4207b7cfcdbdb9029d1ee0bd2981607278c78c95c20d"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00067.parquet",
+      "row_count": 10000,
+      "byte_count": 1226811,
+      "sha256": "51ed6dc9cfa1fc9c8e4de8e8fea508635ad39d387b3350c3159650d570013ddb"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00068.parquet",
+      "row_count": 10000,
+      "byte_count": 1226472,
+      "sha256": "f72fd09d2352127cbe85d8ad369aafeee10d003d2f89aca26abb35fe3dc39f29"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00069.parquet",
+      "row_count": 10000,
+      "byte_count": 1225074,
+      "sha256": "9e981b4206e19c8c14e427eee2da3b0189ad6deb51b13c18da7fcd96e94f2e0c"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00045.parquet",
+      "row_count": 10000,
+      "byte_count": 1199465,
+      "sha256": "e2e4701f409e9269f19332ea1f4aac425fce7c5dd94cf444472d01a7d7ae577b"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00070.parquet",
+      "row_count": 10000,
+      "byte_count": 1222810,
+      "sha256": "c913b68ce5ee15698009b7d6cb28d87ed82b4c1bdd915afff6cf2a9b411b956b"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00016.parquet",
+      "row_count": 10000,
+      "byte_count": 1218470,
+      "sha256": "98724134a2c6c52db49ec70120ec40f9e87eed8bf188ea1494d3aa27e300bc1e"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00071.parquet",
+      "row_count": 10000,
+      "byte_count": 1222231,
+      "sha256": "9ee93316e9ddf443bda2222b5c531515c25cb1fce04a2a96707858effaae7a58"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00072.parquet",
+      "row_count": 10000,
+      "byte_count": 1225079,
+      "sha256": "3a1039a1575a763f909805075132a7b313be564c7e63934e1b643dd0d49fbe5a"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00073.parquet",
+      "row_count": 10000,
+      "byte_count": 1237389,
+      "sha256": "3e84edcf6403ac91c6c18948e2809220505a11c7740d39ad3ffcaa9240806622"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00017.parquet",
+      "row_count": 10000,
+      "byte_count": 1213158,
+      "sha256": "0de2e525ade1bb2b7fbaae0c82b5baa289206c22b4c8e28c7192c1c9cbe9c63f"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00074.parquet",
+      "row_count": 10000,
+      "byte_count": 1210057,
+      "sha256": "b13af648c4b996e91e0b9fcb3cb0c8856c20821bdca9bfd13be7c23ee96d01ba"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00018.parquet",
+      "row_count": 10000,
+      "byte_count": 1224292,
+      "sha256": "b5c3f9a73f34a5f29ca5028a3bb9d684724452f1a57c790ee7065063a25df5a8"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00075.parquet",
+      "row_count": 10000,
+      "byte_count": 1249988,
+      "sha256": "5c2d4461900101b2262bb0ec8492ad651b957ad3b38164a2bdc7d3c9f3be0dfe"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00019.parquet",
+      "row_count": 10000,
+      "byte_count": 1241765,
+      "sha256": "25a74b4affc534e05b5b3abc40adee804bfdb70f3c7ae4071e32f7f1037d2de3"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00046.parquet",
+      "row_count": 10000,
+      "byte_count": 1194533,
+      "sha256": "fdf3884d4d09c3a8c749bd3414efbe3db964c4cd8037e445797483f1cf934569"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00076.parquet",
+      "row_count": 10000,
+      "byte_count": 1250049,
+      "sha256": "9da06023926f930ee7f9846346c45fb8122519b5a669170027139446a1135cea"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00077.parquet",
+      "row_count": 10000,
+      "byte_count": 1246221,
+      "sha256": "df00ae696b8bb2d0a67f1fcb1ac516c35439c55e229a81334cf80d3cbb9b1db9"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00020.parquet",
+      "row_count": 10000,
+      "byte_count": 1244770,
+      "sha256": "baad15d50e1d13f64ccc606cbb419b48031d4ef62688fdc99c25679520ee77d5"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00078.parquet",
+      "row_count": 10000,
+      "byte_count": 1253167,
+      "sha256": "93307900d50a68a485004e793e6708bfcfa3c8d27f4069e01e9af9465c57cad9"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00021.parquet",
+      "row_count": 10000,
+      "byte_count": 1256895,
+      "sha256": "a757dfeaad9c2d05c71a09cc75699392af972cd1a299c663eab78d273101066a"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00079.parquet",
+      "row_count": 10000,
+      "byte_count": 1252943,
+      "sha256": "2bfb50f68c2196c3a04f4c18370f0d6e3eb0c942b59fca074f55177d738dd101"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=5/part-00001.parquet",
+      "row_count": 10000,
+      "byte_count": 1218232,
+      "sha256": "31a06cf54dc426a4591f96b5a6bde38074ce018018db43e4c8809f08415b17ef"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00022.parquet",
+      "row_count": 10000,
+      "byte_count": 1214333,
+      "sha256": "2500d797fa6efe1d758ef1f8ed2e24aa1ba189dc122da6e543651ebb7f32edc3"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00080.parquet",
+      "row_count": 10000,
+      "byte_count": 1237232,
+      "sha256": "5975a194b904ca4d6639a1323af7997f40608f09d9afb80d9a4d95ef6b1f0275"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00023.parquet",
+      "row_count": 10000,
+      "byte_count": 1254592,
+      "sha256": "4392bdb20a927f238d91d4f29637ddfb8a7956148df612f7cb300fee9ef77442"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00047.parquet",
+      "row_count": 10000,
+      "byte_count": 1256224,
+      "sha256": "d0ee1f2acfb1e4afcd15b03242e70d3ce1cfe51af748e1469fded68ec96b7bcd"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00081.parquet",
+      "row_count": 10000,
+      "byte_count": 1271541,
+      "sha256": "2171feeac95320fe461d6b57e0a93559884daf1e4d14f5465f8662f05d7163c2"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00082.parquet",
+      "row_count": 10000,
+      "byte_count": 1280964,
+      "sha256": "8b351ad56ec9d4dbf29f0ce81baff16783cb980471f56904f74a48d32904709c"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00024.parquet",
+      "row_count": 10000,
+      "byte_count": 1266789,
+      "sha256": "72ebea7c48ddb522739c1687094428b01745df0c567c005da32170bce917d65a"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00083.parquet",
+      "row_count": 10000,
+      "byte_count": 1303886,
+      "sha256": "f45ad577970bc60b768dc824175357343c5626d4b760f6abed565e5c81430311"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00048.parquet",
+      "row_count": 10000,
+      "byte_count": 1243192,
+      "sha256": "46fae7120872309e1571ca276bcddf737b9266aa1345f39cd3933418ea24b340"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00084.parquet",
+      "row_count": 10000,
+      "byte_count": 1237724,
+      "sha256": "14cc9ff524a26cee8427cb258fa550f208516e6fd78249f8ecc96cbe41baa3e6"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00025.parquet",
+      "row_count": 10000,
+      "byte_count": 1256072,
+      "sha256": "7b4578e7901a62b53ec12deabe5e333a65cc1343fb6ec7da7eb691677dab8866"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00085.parquet",
+      "row_count": 10000,
+      "byte_count": 1167876,
+      "sha256": "f9fb07eb0a158d5e99b566a2b08f3a31af39c8faa6d24daeb590a928db5d826f"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00086.parquet",
+      "row_count": 10000,
+      "byte_count": 1178981,
+      "sha256": "3147e54d2e592652a2166cb5fd97607f76a8d97ae22c4b5e758832bdebafa217"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00049.parquet",
+      "row_count": 10000,
+      "byte_count": 1149246,
+      "sha256": "70ac83dfe26b576112d8736a408af1657611b535c8f735361ef57a01db4cda59"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00087.parquet",
+      "row_count": 10000,
+      "byte_count": 1158066,
+      "sha256": "ede97266f86b778f4c5f37e92d334226db1fadba93c15c33c6f84cdb7fd482ce"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00088.parquet",
+      "row_count": 10000,
+      "byte_count": 1171647,
+      "sha256": "1faf24fdbd9a40ed5956971194308aafbc2358a157dbd3dd42354c41db1de4e7"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00089.parquet",
+      "row_count": 10000,
+      "byte_count": 1184930,
+      "sha256": "429cc0e9bae622095f9a5a7bca2910b9d68da26b27c0b17b3f5713179ba37fd7"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00026.parquet",
+      "row_count": 10000,
+      "byte_count": 1170778,
+      "sha256": "e4691d33bce6538e23acb7c43e2aa7397ad51c1957a2abbd4c4079e139f57b83"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00090.parquet",
+      "row_count": 10000,
+      "byte_count": 1175312,
+      "sha256": "7a9b84c1e12935ed479db63de7dadbef3bc9228dfc761f4a4fc190be71cf7e4d"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=5/part-00002.parquet",
+      "row_count": 10000,
+      "byte_count": 1236560,
+      "sha256": "79248e6e596cde4bf9beb58a5661372c4278d2aa4a2c6b03745b65eda14e83b1"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00091.parquet",
+      "row_count": 10000,
+      "byte_count": 1170994,
+      "sha256": "8f38de114bf29f5cf7976e31fb41f28b088a999126229a862510e61870c56ee5"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00027.parquet",
+      "row_count": 10000,
+      "byte_count": 1167219,
+      "sha256": "4943d75f0617437808eac19f957b2d769240cfeabe4c84190ed0a09dbbe99d7e"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00092.parquet",
+      "row_count": 10000,
+      "byte_count": 1153859,
+      "sha256": "f8a6bb0d25f6b0e09ff43905893ffe76816c3dbe99f1a65fcb6074296d635a72"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00093.parquet",
+      "row_count": 10000,
+      "byte_count": 1157746,
+      "sha256": "d7533548b83a976332130225b21d7c0816bac02c01fd2c587bd0a53a4e0dc0bc"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00028.parquet",
+      "row_count": 10000,
+      "byte_count": 1168928,
+      "sha256": "576ca9761147dfa047648817980491021434ec7c76697344f714825121665ec1"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00094.parquet",
+      "row_count": 10000,
+      "byte_count": 1196509,
+      "sha256": "73cb5136572c720cc95973e50d09cf1225f5d4e29b5a4edce071d01301e85b52"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00029.parquet",
+      "row_count": 10000,
+      "byte_count": 1190657,
+      "sha256": "834a8c0da9ccc2d75204906dde0b65f537c9b1d6b1805f7b0182e0936771d6c5"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00050.parquet",
+      "row_count": 10000,
+      "byte_count": 1151657,
+      "sha256": "9291d9f9829c3a71d612d355b4bf238274ebe9504da19e06b989c86467a3bfcb"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00095.parquet",
+      "row_count": 10000,
+      "byte_count": 1184156,
+      "sha256": "b574c4ad3972b949a1a39a60a50dd9a70f7ff46f1286d187a3f1e69988c592f4"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00096.parquet",
+      "row_count": 10000,
+      "byte_count": 1162693,
+      "sha256": "c9e3802c111628f04dad56ec4c6975960f962522d2dcf8982327ee287770d59f"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00097.parquet",
+      "row_count": 10000,
+      "byte_count": 1156229,
+      "sha256": "6f5200ffb8e9ad706538c9215e82949c196276cf08977bc2fa16457276a58f1f"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00098.parquet",
+      "row_count": 10000,
+      "byte_count": 1153197,
+      "sha256": "73095af99408ef1dbec3de8b6d0ecd2f09bc8255ee82ebc0ede1823202a82f1a"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00030.parquet",
+      "row_count": 10000,
+      "byte_count": 1163925,
+      "sha256": "e463daed53015fce67b88a908555acc4a40f3468ab887ebe4128ea6ae8b9cdeb"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00051.parquet",
+      "row_count": 10000,
+      "byte_count": 1134588,
+      "sha256": "9fc543020bc5724a2f3d909b4e1340cf98037d295af6ebda940277a92b697cfd"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00099.parquet",
+      "row_count": 10000,
+      "byte_count": 1176456,
+      "sha256": "1d0551cdc6585e0c1c609d1ca57eb979b73fef4cb14a83f227ff341212439d21"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00100.parquet",
+      "row_count": 10000,
+      "byte_count": 1154407,
+      "sha256": "c9250563399fd6400c592cae8495758d12493394981a1e255f3460dfd6daa8cb"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00031.parquet",
+      "row_count": 10000,
+      "byte_count": 1159182,
+      "sha256": "94a1e1f72414b274bd4ef32a91936f9472ec41db7c6236ae180577871b5353c9"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00101.parquet",
+      "row_count": 10000,
+      "byte_count": 1158409,
+      "sha256": "2fe494ab5acb363ffa09c1f19bd05be226bde838cea7e22f58292443fc4cb458"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00032.parquet",
+      "row_count": 10000,
+      "byte_count": 1170923,
+      "sha256": "2b300c549f8aa81cb14bcce9dbe37077e56f2928749ff649a7e6743dc522904d"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00102.parquet",
+      "row_count": 10000,
+      "byte_count": 1168380,
+      "sha256": "24e58d19fa98e7588ff1a0e5e89e49d18067f14ecfb3f6298d88c9552e1d216f"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00103.parquet",
+      "row_count": 10000,
+      "byte_count": 1186690,
+      "sha256": "e8a02abaa71adcb1b9ea19c36eae306ffaf75d5f5fc3486cf10eaeadce18197b"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00033.parquet",
+      "row_count": 10000,
+      "byte_count": 1190245,
+      "sha256": "a1beaa81884ebf296a25faf24aebc9137050f625f0a6a0671ac5d1ddb3c6093c"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00104.parquet",
+      "row_count": 10000,
+      "byte_count": 1195411,
+      "sha256": "5c01a8093a61bbf32189a05330e229c62256c863351a167efaa7194c886f485e"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00105.parquet",
+      "row_count": 10000,
+      "byte_count": 1196834,
+      "sha256": "9d5a1bf21f95b596044628cdc56f6861edd63a3568cc7c20ab91f93302d491c8"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00034.parquet",
+      "row_count": 10000,
+      "byte_count": 1194403,
+      "sha256": "be01ee974ce6ed1c13ea2a98838773486119036f1643032ce0cea89569c09104"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00106.parquet",
+      "row_count": 10000,
+      "byte_count": 1170119,
+      "sha256": "d0c34594ec272d42248a6ae7a202025cb12929be3ad4e2d2b5bec4699c0ec51b"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00035.parquet",
+      "row_count": 10000,
+      "byte_count": 1181554,
+      "sha256": "1635385baf01cb75f3c21421afcd01414e03833fc877915414fc7a4df44fabcc"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=5/part-00003.parquet",
+      "row_count": 10000,
+      "byte_count": 1172404,
+      "sha256": "37ed63ea885d177957160ebc3c0308cec30af4a918dffe3065a559aec5950816"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00107.parquet",
+      "row_count": 10000,
+      "byte_count": 1175001,
+      "sha256": "1773f68e0d1786db7b574f843fcc66db1198426cc096b9b891b558c7abfe76e5"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00036.parquet",
+      "row_count": 10000,
+      "byte_count": 1209675,
+      "sha256": "ad7d70def17d67ba172a3a779f02241f041b041ceaab16df57e9216f7949cb80"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00108.parquet",
+      "row_count": 10000,
+      "byte_count": 1208476,
+      "sha256": "93b755aa5663bfe2fd1c17f7b37fb2c782cbad4c5021fd2011028f2d623f9092"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00109.parquet",
+      "row_count": 10000,
+      "byte_count": 1164049,
+      "sha256": "f5de65135f56530c406b9e264fbbdb4f0acb362758d10dc6b33492c8c517b4b5"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00037.parquet",
+      "row_count": 10000,
+      "byte_count": 1172382,
+      "sha256": "9bd21d3cf355bfd8ce3ef7aa2462cb906842712cffbccd5576973ab3f323ecf4"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00038.parquet",
+      "row_count": 10000,
+      "byte_count": 1167834,
+      "sha256": "13a20addf40c7befa7a26602e7d098da4f6b09b66c5e285e8391a7b35ba5950b"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00110.parquet",
+      "row_count": 10000,
+      "byte_count": 1171110,
+      "sha256": "94644780a64f1b17cc66bc8903406de9f4cdd1db4279e2a4c08d7b9caf3ee0f7"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00039.parquet",
+      "row_count": 10000,
+      "byte_count": 1183929,
+      "sha256": "97338cd10fc57099b0ad66d4638eff0076db3c5222487d61d48b845be3d8b337"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00040.parquet",
+      "row_count": 10000,
+      "byte_count": 1189012,
+      "sha256": "52cf76ae81cbcfa070ef806c522191d258190fe8cca3f873d87f5eba1acb353a"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=5/part-00004.parquet",
+      "row_count": 10000,
+      "byte_count": 1178917,
+      "sha256": "79aacbc8d85a940a585863ab2043c9c35b742ddc4b0f04b7e845db40b2365d9f"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00041.parquet",
+      "row_count": 10000,
+      "byte_count": 1205093,
+      "sha256": "8a3c97d6e6f2bf2b2fcb00d5f70518a21359bfd23ec8287e71e226d9a483cbb9"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00111.parquet",
+      "row_count": 10000,
+      "byte_count": 1203439,
+      "sha256": "c6ab6ceafe8a1c9c64805e52a7cba74c30052d7d2f5ae950ca25610590b2bef1"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00112.parquet",
+      "row_count": 10000,
+      "byte_count": 1201620,
+      "sha256": "ac5df3ab5d37f7e90963d829dea24058f83e4b2635432f48528c23b7e983f472"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00042.parquet",
+      "row_count": 10000,
+      "byte_count": 1228145,
+      "sha256": "24e8c291041029d5b5d39ade5f7d911ba18f50a3d140b6f92371e3f1171d6660"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00113.parquet",
+      "row_count": 10000,
+      "byte_count": 1184661,
+      "sha256": "cf4daa05c30ac08aac0d851a72acd34cf6d1d949c98fc9ab1ac22f96bc8cc3c8"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00043.parquet",
+      "row_count": 10000,
+      "byte_count": 1182132,
+      "sha256": "508a09fe4410349667324cca4efd463ab576661dbd981fa3771451bfb8b54ad2"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00114.parquet",
+      "row_count": 10000,
+      "byte_count": 1179252,
+      "sha256": "499d9e8d77fff8829f02c5e91ebd82dae7e1d6136c55ace7c9944a640b84ebe5"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00044.parquet",
+      "row_count": 10000,
+      "byte_count": 1195322,
+      "sha256": "d1fdf05b35f21e9e35cac0079d5902bda0217d6eb518a727b5118d357e75c4ad"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=5/part-00005.parquet",
+      "row_count": 10000,
+      "byte_count": 1207305,
+      "sha256": "6d816290359cb5c341d8764715fe1211025c737beec4d30543c43ddb1eb1b689"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00115.parquet",
+      "row_count": 10000,
+      "byte_count": 1194295,
+      "sha256": "0e57434c168eb4ce133008d7a859ff21cb673402a78e825fa4ecfbda10b875ef"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00045.parquet",
+      "row_count": 10000,
+      "byte_count": 1179787,
+      "sha256": "e575775bd029b69728f4d8f7676a5ad8d5c9a031a1a817ec294c2389289706bb"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00052.parquet",
+      "row_count": 10000,
+      "byte_count": 1172676,
+      "sha256": "3c1fe0ef5807e60e3101b3cb9c63bf7d912f20a96bf8ff1295f69770faccf5d4"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00046.parquet",
+      "row_count": 10000,
+      "byte_count": 1214152,
+      "sha256": "59cd217910aea3b4496997bb6579b4443876b8ad0ebd4f75ff2f70e3eff4ed7a"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00116.parquet",
+      "row_count": 10000,
+      "byte_count": 1213350,
+      "sha256": "2b8a4ea923d7dea0a573b3eeaa123796c45a7b8af61ea3467fdf19e593635fc5"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00117.parquet",
+      "row_count": 10000,
+      "byte_count": 1222752,
+      "sha256": "dfede86fdb4062b695a40f1633783ccd5d25594a2019a70b75f04095dd0b4f6e"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00047.parquet",
+      "row_count": 10000,
+      "byte_count": 1241920,
+      "sha256": "b9ebfa6d9cdaa45097874b076bc88b2d27393a765bac4ffb0abc3ddb75beecc3"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00118.parquet",
+      "row_count": 10000,
+      "byte_count": 1227584,
+      "sha256": "33285cb0774d84196431b94ed47079fc2b5160115352732845eae4366f0bc883"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00048.parquet",
+      "row_count": 10000,
+      "byte_count": 1210970,
+      "sha256": "050ff659d078e1b8883409cb0beebd23d15becfb123787988fffae5c545f106c"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=5/part-00006.parquet",
+      "row_count": 10000,
+      "byte_count": 1211134,
+      "sha256": "7223bdfd13b9def59d4c2cf237c980f34c6709abe79afd43b9d56e3a5f27f0b7"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00049.parquet",
+      "row_count": 10000,
+      "byte_count": 1226618,
+      "sha256": "29dc33531312af61ebee33a085f51a5874079a1b0ff8ccad4a8ae5c3a0fafd54"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00119.parquet",
+      "row_count": 10000,
+      "byte_count": 1210364,
+      "sha256": "20c7b59cb607c6021aa0f164510ea8d427890d05c30c2cab085b94869e89d9d3"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00050.parquet",
+      "row_count": 10000,
+      "byte_count": 1212742,
+      "sha256": "6ba843a467364460032bc13208a61a92b98900e1ccc45a4fa12f6b8027b4a202"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=5/part-00007.parquet",
+      "row_count": 10000,
+      "byte_count": 1214205,
+      "sha256": "ba9840436bdf5e033100e3903cf156258f3ad803ae9a016e99ac1cec20dc19fe"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00051.parquet",
+      "row_count": 10000,
+      "byte_count": 1193136,
+      "sha256": "e2892d637bbc87bc12d0437de491f84ec83586e571075840946292eb5c563e02"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00052.parquet",
+      "row_count": 10000,
+      "byte_count": 1257988,
+      "sha256": "36b7e6bc5fcb9cf09811ef29d370fddf08e1b19aec904aeb6bcce2e91f4bebc9"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=5/part-00008.parquet",
+      "row_count": 10000,
+      "byte_count": 1236392,
+      "sha256": "deea362012191e2d6e5f88bcea8de8a45705184acafa5e5477f6738631b44b3e"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00120.parquet",
+      "row_count": 10000,
+      "byte_count": 1259488,
+      "sha256": "f8aacf3a1f3e1f0266e6e42a0b3b1b6f108fc7b59fedb0edb3b5d1299e65332c"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00121.parquet",
+      "row_count": 10000,
+      "byte_count": 1147035,
+      "sha256": "bc5d0d22b48d340821a5b33f57c1bdedfb2ee2141556b552a7d7d482af5ac7b2"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00053.parquet",
+      "row_count": 10000,
+      "byte_count": 1183077,
+      "sha256": "92fd075f534b1e2ed5d8bec2a1d19a15dcdf7bc944b576911b8bc771a1726483"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00122.parquet",
+      "row_count": 10000,
+      "byte_count": 1143317,
+      "sha256": "ac24bd148c95d3737692f7dbda6210368040d0bbd6a0661ab01710fc3d970cf0"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00054.parquet",
+      "row_count": 10000,
+      "byte_count": 1156754,
+      "sha256": "c5623077333f992ab6761fbefe1f5e561ba58ae3cee7e1318d4d669aac97674f"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00123.parquet",
+      "row_count": 10000,
+      "byte_count": 1140203,
+      "sha256": "7448d83ccad588547b76878a70f0503bb50dff392f87aeb4fded43ff11e81635"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00055.parquet",
+      "row_count": 10000,
+      "byte_count": 1138965,
+      "sha256": "a49e5ce9d71851425d7dbc33ee15b43614c665f767409303b8a913ef4c51a22c"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00056.parquet",
+      "row_count": 10000,
+      "byte_count": 1138445,
+      "sha256": "c313188ba7c3b7627fc4d55b9bed3bbc72b7c91b29570bbda777e737c6ae8a7d"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00124.parquet",
+      "row_count": 10000,
+      "byte_count": 1134640,
+      "sha256": "70d6c8cfa0a1453659cfa36da5b10a0390098ca76442e99afa3381b4f4a18700"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=5/part-00009.parquet",
+      "row_count": 10000,
+      "byte_count": 1161358,
+      "sha256": "7ae59505f53cc27b6c12ca8aa1efade54d060fdf7cfe2d225239a14936389cdc"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00057.parquet",
+      "row_count": 10000,
+      "byte_count": 1179609,
+      "sha256": "09b9170a26ced77f679d937034f316905992edcf1b4e2df441c13305630bbf90"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00058.parquet",
+      "row_count": 10000,
+      "byte_count": 1146246,
+      "sha256": "85a5b19a4023a09714be74af6f847495c705d12f5dff621e28c5ec86da6e7e79"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00059.parquet",
+      "row_count": 10000,
+      "byte_count": 1139544,
+      "sha256": "44d30a862a48c370ac43fe25a7de4b14c6b906b9b58fcd6030708e48204f0db2"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=5/part-00010.parquet",
+      "row_count": 10000,
+      "byte_count": 1157645,
+      "sha256": "b721d6a398c942780c576ca439ef82373d1cd9cbb8df15b88c51924a63e2f4b8"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00125.parquet",
+      "row_count": 10000,
+      "byte_count": 1158262,
+      "sha256": "7c65a8c173517040d2f2e2b5908a9cd49ff9b51c3ed9bdf7064f9f0895015635"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=6/part-00000.parquet",
+      "row_count": 10000,
+      "byte_count": 1195876,
+      "sha256": "920d142d71de0dd12c0d133ec7cbf3bc6eff22b5f0c078804da41871a3c5f0e2"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00060.parquet",
+      "row_count": 10000,
+      "byte_count": 1161669,
+      "sha256": "d0704b717522d4cb32dff25d458bf8db7b45890e2995c0b494649092b7e610e2"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=5/part-00011.parquet",
+      "row_count": 10000,
+      "byte_count": 1175182,
+      "sha256": "46ead6b5fdd8166d5cc71471f6232408f61d9f483ccdd80dc245e5ba1ad9ef8c"
+    },
+    {
+      "kind": "search",
+      "path": "search/order=10/posets.parquet",
+      "row_count": 2567284,
+      "byte_count": 39002715,
+      "sha256": "e92be13590144f0923740996536fc1fbdc6e0dfd1af091ae220c1ce682d2e57e"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=0/part-00000.parquet",
+      "row_count": 1,
+      "byte_count": 3190,
+      "sha256": "f7623e3bec081546ccb9bb7f5e070c3e15396ca51d850fe8cd9ac2d700c2f830"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=1/part-00001.parquet",
+      "row_count": 765,
+      "byte_count": 96455,
+      "sha256": "d63ef05a3ec39221b8a69c18f201e7120bfb8c696db0b3a24e4aa64420ac4583"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=2/part-00053.parquet",
+      "row_count": 4741,
+      "byte_count": 571002,
+      "sha256": "0aab3ca46810a7f9ea6490782cd1118c32a4726125fae2a7ea1d69de6b578993"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=3/part-00126.parquet",
+      "row_count": 1371,
+      "byte_count": 167009,
+      "sha256": "1e48d05da502c6bebb9588e18d0b9a88d317a2b119a2cc7ae722cfab8e75763b"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=4/part-00061.parquet",
+      "row_count": 9489,
+      "byte_count": 1111551,
+      "sha256": "13a01b312bff383091ed10416d4d3b66e2a8b370c6db39c66d174d9916eda98a"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=5/part-00012.parquet",
+      "row_count": 5597,
+      "byte_count": 655643,
+      "sha256": "6e1ceb88f52f739118b8f8b4698cd64f031b65ca0c22dacdf474976e6f20df1d"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=6/part-00001.parquet",
+      "row_count": 4258,
+      "byte_count": 503173,
+      "sha256": "6d0ed8062e7cd85949b0e86a86b5d546a28a7d806b211407fdc5b88054f87f52"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=7/part-00000.parquet",
+      "row_count": 1016,
+      "byte_count": 122748,
+      "sha256": "209414978fc86afb5eda5c6adba823955b5ee5dbd2388a1b067e25cee90059d0"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=8/part-00000.parquet",
+      "row_count": 45,
+      "byte_count": 8871,
+      "sha256": "a3ee01ecce13b8e6286ad90c387ce8a6c78cd3b9fc88ab7ae7d156cf853e20c4"
+    },
+    {
+      "kind": "details",
+      "path": "details/order=10/dimension=9/part-00000.parquet",
+      "row_count": 1,
+      "byte_count": 3331,
+      "sha256": "f260516d49adfc20ebf13ede043acca6110cac0d5354e6e5d7e141429d9b081f"
+    }
+  ],
+  "checks": {
+    "source_orders_certified": true,
+    "labels_unique_and_complete": true,
+    "core_labels_resolved": true,
+    "opposite_labels_resolved": true,
+    "order_complexes_resolved": true,
+    "group_identifications_consistent": true,
+    "search_and_detail_counts_match": true
+  }
+}
