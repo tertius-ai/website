@@ -1,0 +1,1 @@
+const o=/^\d+\.-?\d+\.\d+$/;function r(n){if(!n)return null;const e=decodeURIComponent(n);return o.test(e)?e:null}function s(n){const e=window.location.pathname.split("/").filter(Boolean),t=e.lastIndexOf(n);return t>=0?r(e[t+1]):null}function c(n){return`/Poset/${encodeURIComponent(n)}`}function d(n){return`/Steiner/${encodeURIComponent(n)}`}export{c as p,s as r,d as s};

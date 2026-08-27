@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Opening TypeBase…</title>
+  </head>
+  <body>
+    <p>Opening TypeBase…</p>
+    <script>
+      (() => {
+        const path = location.pathname.replace(/\/+$/, "");
+        const poset = /^\/Poset\/\d+\.-?\d+\.\d+$/.test(path);
+        const steiner = /^\/Steiner\/\d+\.-?\d+\.\d+$/.test(path);
+        const reference =
+          path === "/Glossary" ||
+          /^\/(Posets|Steiner)\/(Source|Completeness)$/.test(path);
+        const shell = poset
+          ? "/typebase/index.html"
+          : steiner
+            ? "/typebase/steiner.html"
+            : reference
+              ? "/typebase/reference.html"
+              : null;
+        if (!shell) {
+          location.replace("/typebase/");
+          return;
+        }
+        fetch(shell)
+          .then((response) => {
+            if (!response.ok) throw new Error(`Unable to load ${shell}`);
+            return response.text();
+          })
+          .then((markup) => {
+            document.open();
+            document.write(markup);
+            document.close();
+          })
+          .catch(() => location.replace("/typebase/"));
+      })();
+    </script>
+  </body>
+</html>

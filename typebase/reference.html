@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <base href="/typebase/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Definitions, sources, and completeness statements for TypeBase Volume I." />
+    <meta name="theme-color" content="#f2efe7" />
+    <title>Reference — TypeBase Volume I</title>
+    <script>
+      const requestedStyle = new URL(location.href).searchParams.get("style");
+      const requestedPlate = new URL(location.href).searchParams.get("plate");
+      try {
+        document.documentElement.dataset.style = requestedStyle || localStorage.getItem("typebase-site-proof") || "report";
+        document.documentElement.dataset.plate = requestedPlate || localStorage.getItem("typebase-diagram-plate") || "byrne";
+      } catch {
+        document.documentElement.dataset.style = requestedStyle || "report";
+        document.documentElement.dataset.plate = requestedPlate || "byrne";
+      }
+    </script>
+    <script type="module" crossorigin src="/typebase/assets/reference-C4RrA0Xa.js"></script>
+    <link rel="modulepreload" crossorigin href="/typebase/assets/presentation-DXVTDxD7.js">
+    <link rel="stylesheet" crossorigin href="/typebase/assets/presentation-O2tz87n1.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#reference-content">Skip to reference</a>
+    <header class="masthead">
+      <a class="wordmark" href="./" aria-label="TypeBase home">
+        <span class="wordmark__name">TypeBase</span>
+        <span class="wordmark__volume">Volume I</span>
+      </a>
+      <div class="proof-switcher" data-presentation-controls="site" aria-label="Presentation proof"></div>
+      <nav aria-label="Collections">
+        <a href="./">Posets</a>
+        <a href="./steiner.html">Steiner categories</a>
+        <a href="/Glossary">Glossary</a>
+        <a href="https://tertius.cc/">Tertius</a>
+      </nav>
+    </header>
+    <main class="reference-page" id="reference-content">
+      <p class="eyebrow">TypeBase reference</p>
+      <h1 id="reference-title">Reference</h1>
+      <nav class="reference-tabs" aria-label="Reference pages">
+        <a href="/Glossary">Glossary</a>
+        <a href="/Posets/Source">Poset source</a>
+        <a href="/Posets/Completeness">Poset completeness</a>
+        <a href="/Steiner/Source">Steiner source</a>
+        <a href="/Steiner/Completeness">Steiner completeness</a>
+      </nav>
+      <article class="reference-document" id="reference-document" aria-live="polite">
+        <p>Opening the reference…</p>
+      </article>
+    </main>
+    <footer><p>TypeBase <span aria-hidden="true">×</span> Tertius</p></footer>
+  </body>
+</html>

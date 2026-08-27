@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <base href="/typebase/" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
@@ -20,12 +21,13 @@
         document.documentElement.dataset.plate = requestedPlate || "byrne";
       }
     </script>
-    <script type="module" crossorigin src="/typebase/assets/steiner-Cu_winTU.js"></script>
-    <link rel="modulepreload" crossorigin href="/typebase/assets/presentation-CpIpOHfa.js">
-    <link rel="stylesheet" crossorigin href="/typebase/assets/presentation-eHAz9PyW.css">
+    <script type="module" crossorigin src="/typebase/assets/steiner-Byh9pkUV.js"></script>
+    <link rel="modulepreload" crossorigin href="/typebase/assets/presentation-DXVTDxD7.js">
+    <link rel="modulepreload" crossorigin href="/typebase/assets/routes-CqWOoi3D.js">
+    <link rel="stylesheet" crossorigin href="/typebase/assets/presentation-O2tz87n1.css">
   </head>
   <body>
-    <a class="skip-link" href="#catalogue">Skip to catalogue</a>
+    <a class="skip-link" id="skip-link" href="#catalogue">Skip to catalogue</a>
     <header class="masthead">
       <a class="wordmark" href="./" aria-label="TypeBase home">
         <span class="wordmark__name">TypeBase</span>
@@ -35,11 +37,12 @@
       <nav aria-label="Collections">
         <a href="./">Posets</a>
         <a href="./steiner.html" aria-current="page">Steiner categories</a>
+        <a href="/Glossary">Glossary</a>
         <a href="https://tertius.cc/">Tertius</a>
       </nav>
     </header>
 
-    <main>
+    <main id="catalogue-page">
       <section class="catalogue" id="catalogue" aria-labelledby="catalogue-title">
         <div class="section-heading">
           <div>
@@ -50,6 +53,11 @@
             record drawing to open their exact mapping category.
           </p>
         </div>
+        <nav class="database-links" aria-label="About the Steiner-category database">
+          <a href="/Steiner/Source">Source</a>
+          <a href="/Steiner/Completeness">Completeness</a>
+          <a href="/Glossary">Glossary</a>
+        </nav>
 
         <form class="filters filters--steiner" id="filters" role="search">
           <label class="field field--label">
@@ -75,29 +83,32 @@
             <label><input type="checkbox" id="interesting-filter" /> Interesting</label>
             <label><input type="checkbox" id="interesting-homotopy-filter" /> Nontrivial hPos</label>
           </fieldset>
-          <fieldset class="homology-filters">
-            <legend>Polygraphic homology and oriented homotopy</legend>
-            <label>
-              <span>Homology degree</span>
-              <select id="homology-degree-filter"><option value="">Any</option></select>
-            </label>
-            <label>
-              <span>Minimum free rank</span>
-              <input id="minimum-betti-filter" type="number" min="0" max="20" value="1" disabled />
-            </label>
-            <label>
-              <span>Torsion</span>
-              <select id="torsion-filter">
-                <option value="any">Any</option>
-                <option value="present">Present</option>
-                <option value="absent">Absent</option>
-              </select>
-            </label>
-            <label>
-              <span>Minimum homotopy-Poset order</span>
-              <input id="homotopy-order-filter" type="number" min="0" value="0" />
-            </label>
-          </fieldset>
+          <details class="advanced-filters">
+            <summary>Advanced search options</summary>
+            <fieldset class="homology-filters">
+              <legend>Polygraphic homology and oriented homotopy</legend>
+              <label>
+                <span>Homology degree</span>
+                <select id="homology-degree-filter"><option value="">Any</option></select>
+              </label>
+              <label>
+                <span>Minimum free rank</span>
+                <input id="minimum-betti-filter" type="number" min="0" max="20" value="1" disabled />
+              </label>
+              <label>
+                <span>Torsion</span>
+                <select id="torsion-filter">
+                  <option value="any">Any</option>
+                  <option value="present">Present</option>
+                  <option value="absent">Absent</option>
+                </select>
+              </label>
+              <label>
+                <span>Minimum homotopy-Poset order</span>
+                <input id="homotopy-order-filter" type="number" min="0" value="0" />
+              </label>
+            </fieldset>
+          </details>
           <button class="button button--ink" type="submit">Show objects</button>
         </form>
 
@@ -105,12 +116,12 @@
           <p id="result-count">Preparing the catalogue…</p>
           <p id="query-note">The complete search edition is a small static document.</p>
         </div>
-        <button class="homotopy-feature" type="button" data-steiner-label="10.2.51">
+        <a class="homotopy-feature" href="/Steiner/10.2.51">
           <span class="eyebrow">A homotopy-Poset specimen</span>
           <strong>10.2.51</strong>
           <span>Four parallel arrows and four directed faces; hPos<sub>1</sub>(v<sub>0</sub> → v<sub>1</sub>) is the four-point crown 4.1.7 ≃ S<sup>1</sup>.</span>
           <span aria-hidden="true">Open →</span>
-        </button>
+        </a>
         <div class="object-list" id="object-list"></div>
         <div class="pagination" id="pagination" hidden>
           <button class="text-button" id="previous-page" type="button">← Previous</button>
@@ -131,9 +142,11 @@
 
     </main>
 
-    <dialog class="record record--steiner" id="record-dialog" aria-labelledby="record-title">
-      <div id="record-content"></div>
-    </dialog>
+    <main class="record-page" id="record-page" hidden>
+      <article class="record record--page record--steiner" aria-labelledby="record-title">
+        <div id="record-content"></div>
+      </article>
+    </main>
 
     <footer>
       <p>TypeBase <span aria-hidden="true">×</span> Tertius</p>
