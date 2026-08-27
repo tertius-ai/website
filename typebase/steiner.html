@@ -11,13 +11,18 @@
     <title>Steiner Categories — TypeBase Volume I</title>
     <script>
       const requestedStyle = new URL(location.href).searchParams.get("style");
-      document.documentElement.dataset.style = ["report", "registrar", "monograph"].includes(requestedStyle)
-        ? requestedStyle
-        : "report";
+      const requestedPlate = new URL(location.href).searchParams.get("plate");
+      try {
+        document.documentElement.dataset.style = requestedStyle || localStorage.getItem("typebase-site-proof") || "report";
+        document.documentElement.dataset.plate = requestedPlate || localStorage.getItem("typebase-diagram-plate") || "byrne";
+      } catch {
+        document.documentElement.dataset.style = requestedStyle || "report";
+        document.documentElement.dataset.plate = requestedPlate || "byrne";
+      }
     </script>
-    <script type="module" crossorigin src="/typebase/assets/steiner-fPhS39h3.js"></script>
-    <link rel="modulepreload" crossorigin href="/typebase/assets/style-DiC4EvgR.js">
-    <link rel="stylesheet" crossorigin href="/typebase/assets/style-CrP1IQYp.css">
+    <script type="module" crossorigin src="/typebase/assets/steiner-BkK13mdn.js"></script>
+    <link rel="modulepreload" crossorigin href="/typebase/assets/presentation-CmsSY2-f.js">
+    <link rel="stylesheet" crossorigin href="/typebase/assets/presentation-DyWg_YSF.css">
   </head>
   <body>
     <a class="skip-link" href="#catalogue">Skip to catalogue</a>
@@ -26,12 +31,7 @@
         <span class="wordmark__name">TypeBase</span>
         <span class="wordmark__volume">Volume I</span>
       </a>
-      <div class="proof-switcher" aria-label="Presentation proof">
-        <span>Proof</span>
-        <button type="button" data-style-choice="report">A · Report</button>
-        <button type="button" data-style-choice="registrar">B · Cards</button>
-        <button type="button" data-style-choice="monograph">C · Book</button>
-      </div>
+      <div class="proof-switcher" data-presentation-controls="site" aria-label="Presentation proof"></div>
       <nav aria-label="Collections">
         <a href="./">Posets</a>
         <a href="./steiner.html" aria-current="page">Steiner categories</a>
