@@ -15,9 +15,9 @@
         ? requestedStyle
         : "report";
     </script>
-    <script type="module" crossorigin src="/typebase/assets/steiner-igmk50Ur.js"></script>
-    <link rel="modulepreload" crossorigin href="/typebase/assets/style-DX5ea1A8.js">
-    <link rel="stylesheet" crossorigin href="/typebase/assets/style-DRzRLgQX.css">
+    <script type="module" crossorigin src="/typebase/assets/steiner-2SfDceHK.js"></script>
+    <link rel="modulepreload" crossorigin href="/typebase/assets/style-C6hKVWT-.js">
+    <link rel="stylesheet" crossorigin href="/typebase/assets/style-DkN3YA6A.css">
   </head>
   <body>
     <a class="skip-link" href="#catalogue">Skip to catalogue</a>
@@ -89,6 +89,7 @@
             <label><input type="checkbox" id="connected-filter" /> Connected</label>
             <label><input type="checkbox" id="self-dual-filter" /> Self-dual</label>
             <label><input type="checkbox" id="interesting-filter" /> Interesting</label>
+            <label><input type="checkbox" id="interesting-homotopy-filter" /> Nontrivial hPos</label>
           </fieldset>
           <fieldset class="homology-filters">
             <legend>Polygraphic homology and oriented homotopy</legend>
@@ -120,6 +121,12 @@
           <p id="result-count">Preparing the catalogue…</p>
           <p id="query-note">The complete search edition is a small static document.</p>
         </div>
+        <button class="homotopy-feature" type="button" data-steiner-label="10.2.51">
+          <span class="eyebrow">A homotopy-Poset specimen</span>
+          <strong>10.2.51</strong>
+          <span>Four parallel arrows and four directed faces; hPos<sub>1</sub>(v<sub>0</sub> → v<sub>1</sub>) is the four-point crown 4.1.7 ≃ S<sup>1</sup>.</span>
+          <span aria-hidden="true">Open →</span>
+        </button>
         <div class="object-list" id="object-list"></div>
         <div class="pagination" id="pagination" hidden>
           <button class="text-button" id="previous-page" type="button">← Previous</button>
