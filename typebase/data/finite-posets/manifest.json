@@ -2913,6 +2913,13 @@
       "row_count": 1,
       "byte_count": 3331,
       "sha256": "f260516d49adfc20ebf13ede043acca6110cac0d5354e6e5d7e141429d9b081f"
+    },
+    {
+      "kind": "landing",
+      "path": "landing.json",
+      "row_count": 30,
+      "byte_count": 16906,
+      "sha256": "429bc3766b4dbaa6ab233f7b491098215f8b08d631cc1d396235315b39f715c8"
     }
   ],
   "checks": {
@@ -2923,5 +2930,6 @@
     "order_complexes_resolved": true,
     "group_identifications_consistent": true,
     "search_and_detail_counts_match": true
-  }
+  },
+  "landing_path": "landing.json"
 }
