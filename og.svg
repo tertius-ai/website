@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="628" viewBox="0 0 1200 628">
+  <rect width="1200" height="628" fill="#090908"/>
+  <g fill="#eeeae0" font-family="'IBM Plex Mono', 'Liberation Mono', monospace">
+    <text x="78" y="101" font-size="30">[t] tertius</text>
+    <rect x="78" y="130" width="1044" height="2"/>
+    <text x="78" y="315" font-size="56">
+      <tspan x="78" dy="0">Open-source tools</tspan>
+      <tspan x="78" dy="72">for mathematics.</tspan>
+    </text>
+    <text x="78" y="540" fill="#aaa79f" font-size="24">A 2026 collaboration by Benjamin Antieau + Deven Manam</text>
+  </g>
+</svg>
