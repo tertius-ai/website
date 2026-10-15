@@ -11,8 +11,10 @@ python3 -m http.server 8000 --directory .
 
 ## Deployment (GitHub Pages)
 
-1. Create a GitHub repo at `tertius-ai/website` and push this directory.
-2. In the repo settings under **Pages**, set source to **Deploy from a branch** → `main` / `/ (root)`.
+1. Propose changes in a pull request to `tertius-ai/website`; the protected `main`
+   branch requires approval before merge.
+2. GitHub Pages deploys `main` / `/ (root)` after changes merge. The Pages source
+   is **Deploy from a branch**.
 3. The `CNAME` file sets the custom domain to `tertius.cc`.
 4. Configure DNS at Cloudflare:
    - `A` records for `tertius.cc` pointing to GitHub Pages IPs:
@@ -43,4 +45,5 @@ python3 -m http.server 8000 --directory .
 - `favicon.svg` — `[t]` mark
 - `logo.svg` / `logo.png` — square brand mark
 - `og.svg` / `og.png` — source and rendered social preview card
+- `sitemap.xml` — canonical public homepage for search indexing
 - `CNAME` — GitHub Pages custom domain config
