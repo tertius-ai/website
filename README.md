@@ -13,9 +13,12 @@ python3 -m http.server 8000 --directory .
 
 1. Propose changes in a pull request to `tertius-ai/website`; the protected `main`
    branch requires approval before merge.
-2. GitHub Pages deploys `main` / `/ (root)` after changes merge. The Pages source
-   is **Deploy from a branch**.
-3. The `CNAME` file sets the custom domain to `tertius.cc`.
+2. The `Website Pages` workflow prepares a static-site artifact on pull requests
+   and deploys it after changes merge into `main`. Manual deployment also uses
+   `main`. The Pages source is **GitHub Actions**.
+3. Set the custom domain to `tertius.cc` in the repository's Pages settings.
+   Workflow-based Pages publishing manages this setting independently of the
+   protected branch; GitHub ignores the repository's `CNAME` file in this mode.
 4. Configure DNS at Cloudflare:
    - `A` records for `tertius.cc` pointing to GitHub Pages IPs:
      - `185.199.108.153`
@@ -30,12 +33,26 @@ python3 -m http.server 8000 --directory .
    - `CNAME` for `www` → `tertius-ai.github.io`
 5. In GitHub Pages settings, enable **Enforce HTTPS** once DNS propagates.
 
-## Email (Cloudflare Email Routing)
+### Switching from branch publishing
 
-1. In Cloudflare dashboard → Email → Email Routing → enable.
-2. Cloudflare adds the required MX + TXT records automatically.
-3. Add a custom address: `contact@tertius.cc` → forward to your personal inbox.
-4. Verify the destination address via the confirmation email.
+After this workflow's pull request is approved, change Pages → Build and
+deployment → Source to **GitHub Actions** immediately before merging it. The
+merge starts the first workflow deployment. Confirm that `Deploy Pages` succeeds.
+
+For a stuck certificate, GitHub documents removing and re-adding the custom domain
+in Pages settings to restart provisioning. Workflow publishing supports this
+without committing to `main`. See [GitHub's certificate provisioning guide](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https).
+
+The website's eight apex `A`/`AAAA` records and `www` CNAME are currently proxied
+through Cloudflare. Before switching them to **DNS only** for direct GitHub Pages
+HTTPS, verify that GitHub has a valid certificate or allow a maintenance window
+for issuance. An expired origin certificate produces browser errors when the
+proxy is disabled.
+
+## Email
+
+The domain's mail records route email to Google. Manage the Google MX, SPF, DKIM,
+and DMARC records separately from the website's `A`, `AAAA`, and `www` records.
 
 ## Files
 
@@ -46,4 +63,5 @@ python3 -m http.server 8000 --directory .
 - `logo.svg` / `logo.png` — square brand mark
 - `og.svg` / `og.png` — source and rendered social preview card
 - `sitemap.xml` — canonical public homepage for search indexing
-- `CNAME` — GitHub Pages custom domain config
+- `.github/workflows/pages.yml` — PR artifact preparation and main-branch deployment
+- `CNAME` — domain reference retained from branch-based publishing
