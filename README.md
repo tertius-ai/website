@@ -12,7 +12,7 @@ python3 -m http.server 8000 --directory .
 ## Deployment (GitHub Pages)
 
 1. Propose changes in a pull request to `tertius-ai/website`; the protected `main`
-   branch requires approval before merge.
+   branch requires a pull request and a successful Pages artifact check.
 2. The `Website Pages` workflow prepares a static-site artifact on pull requests
    and deploys it after changes merge into `main`. Manual deployment also uses
    `main`. The Pages source is **GitHub Actions**.
@@ -35,7 +35,7 @@ python3 -m http.server 8000 --directory .
 
 ### Switching from branch publishing
 
-After this workflow's pull request is approved, change Pages → Build and
+After this workflow's pull request check passes, change Pages → Build and
 deployment → Source to **GitHub Actions** immediately before merging it. The
 merge starts the first workflow deployment. Confirm that `Deploy Pages` succeeds.
 
